@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Anasayfa</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+  </head>
+
+  <body class="p-0">
+    <div class="login-bg">
+      <div class="row h-100 m-0 align-items-center justify-content-center">
+        <div class="p-4 rounded-lg bg-white shadow text-center">
+          <img src="images/logo-bold.png" width="180px" />
+          <div class="row m-0 mt-3">
+            <input
+              type="text"
+              class="shadow rounded-lg border-0 login-inputs px-3 py-2"
+              placeholder="E-posta adresi"
+            />
+          </div>
+          <div class="row m-0 mt-3">
+            <input
+              type="password"
+              class="shadow rounded-lg border-0 login-inputs px-3 py-2 pr-5"
+              placeholder="Şifre"
+              id="password"
+            />
+            <a class="eye-icon"
+              ><i class="far fa-eye-slash" id="togglePassword"></i
+            ></a>
+          </div>
+          <div class="row m-0 mt-3 justify-content-end">
+            <a
+              class="text-warning font-weight-bolder take-password-text"
+              href=""
+              >Şifre Al / Şifremi Unuttum</a
+            >
+          </div>
+          <button
+            class="w-100 btn btn-warning font-weight-bolder text-white mt-3"
+          >
+            Giriş yap
+          </button>
+          <div class="row m-0 mt-3 take-password-text">
+            Satıcı değil misiniz?
+            <a href="" class="text-warning take-password-text"
+              ><ins>Hemen Yedek Parçacı Dünyası'nda satıcı olun.</ins></a
+            >
+          </div>
+          <div class="row m-0 mt-5 justify-content-center">
+            <i class="fas fa-headset text-warning fa-2x float-left mr-2"></i>
+            <span
+              class="
+                float-left
+                login-support-text
+                text-left
+                take-password-text
+                text-muted
+              "
+              >SATICI DESTEK HATTI <br />
+              <span class="font-weight-bolder h6 mb-0 text-dark"
+                >0850 *** ** **</span
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const togglePassword = document.querySelector("#togglePassword");
+      const password = document.querySelector("#password");
+      togglePassword.addEventListener("click", function (e) {
+        togglePassword.removeAttribute("class");
+        if (password.getAttribute("type") == "password")
+          togglePassword.setAttribute("class", "far fa-eye");
+        else togglePassword.setAttribute("class", "far fa-eye-slash");
+        const type =
+          password.getAttribute("type") === "password" ? "text" : "password";
+        password.setAttribute("type", type);
+      });
+    </script>
+  </body>
+</html>
