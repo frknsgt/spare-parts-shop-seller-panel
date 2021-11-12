@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Satıcı Kayıt</title>
+    <link href="css/new-seller-form.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+  </head>
+
+  <body class="p-0">
+    <!-- banner -->
+    <div class="banner-box">
+      <div class="row m-0 h-75 pl-0 pl-md-2">
+        <div class="col-12 col-md-2 p-3 banner-logo"></div>
+        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+          <div class="banner-menu-box p-3 mt-0 mt-md-3">
+            <h4 class="pl-3 my-0 text-white font-weight-bolder new-seller-title">
+              SATICI BAŞVURU FORMU
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- content -->
+    <div class="mt-5">
+      <div class="container">
+        <h2 class="text-center text-warning font-weighht-bolder mb-4">
+          Yeni Satıcı Başvurusu
+        </h2>
+        <div class="content-box p-4 bg-white shadow rounded-lg">
+          <div class="row m-0 content-text">
+            <div class="col-12 col-sm-6 pr-3 pr-0 pr-sm-3 pr-md-5">
+              <p class="font-weight-bolder text-warning mt-3">ADINIZ - SOYADINIZ</p>
+              <input
+                type="text"
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="Ad Soyad"
+              />
+              <p class="font-weight-bolder text-warning mt-3">E-POSTA ADRESİNİZ</p>
+              <input
+                type="email"
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="E-posta Adresi"
+              />
+              <p class="font-weight-bolder text-warning mt-3">ŞİRKET TÜRÜ</p>
+              <select
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="Seçim yapınız"
+              >
+                <option>Seçim yapınız</option>
+                <option>Anonim Şirketi</option>
+                <option>Şahıs Şirketi</option>
+                <option>Limited Şirketi</option>
+                <option>Kollektif Şirket</option>
+                <option>Kooperatif Şirket</option>
+                <option>Adi Ortaklık</option>
+                <option>Adi Komandit Şirket</option>
+                <option>ESH Komandit Şirket</option>
+              </select>
+              <p class="font-weight-bolder text-warning mt-3">İl</p>
+              <select
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="Seçim yapınız"
+              >
+                <option>Seçim yapınız</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+                <option>Adana</option>
+                <option>Bursa</option>
+                <option>Ankara</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-6 pl-3 pl-3 pl-sm-3 pl-md-5">
+              <p class="font-weight-bolder text-warning mt-3">CEP TELEFONUNUZ</p>
+              <input
+                type="number"
+                class="w-100 border border-danger new-seller-inputs px-3 py-3 mb-1"
+                placeholder="05_ _   _ _ _  _ _  _ _"
+              />
+              <span class="text-danger">Girilen telefon numarası bir cariye ait</span>
+              <p class="font-weight-bolder text-warning mt-3">
+                SATILACAK ÜRÜN KATEGORİSİ
+              </p>
+              <select
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="Seçim yapınız"
+              >
+                <option>Seçim yapınız</option>
+                <option>Motor</option>
+                <option>Otomobil</option>
+                <option>Araç Bakım Ürünleri</option>
+              </select>
+              <p class="font-weight-bolder text-warning mt-3">TCKN / VKN</p>
+              <input
+                type="number"
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1"
+                placeholder="Tc no"
+              />
+              <p class="font-weight-bolder text-warning mt-3">İlçe</p>
+              <select
+                class="w-100 border new-seller-inputs px-3 py-3 mb-1 font-weight-none"
+                placeholder="Seçim yapınız"
+              >
+                <option>Seçim yapınız</option>
+                <option>Üsküdar</option>
+                <option>Fatih</option>
+                <option>Eminönü</option>
+              </select>
+              <a class="btn btn-warning text-light w-100 font-weight-bolder rounded-lg mt-3" href="#applicationComplatedModal" data-toggle="modal" data-target="#applicationComplatedModal">DEVAM ET</a>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="new-seller-warning d-inline-block p-3 border border-danger">
+                    <i class="fas fa-exclamation-triangle float-left fa-2x text-danger"></i>
+                    <div class="new-seller-warning-text float-left ml-3">
+                        Daha önceden oluşturulmuş bir satıcı başvuru kaydınız bulunmaktadır. Kayıtlı başvurunuzda kullandığınız e-posta adresiniz 
+üzerinden başvuru durumunuzu takip edebilirsiniz. Tüm sorularınız için Satıcı Destek Hattı: 0850 258 58 00. Detaylı bilgi için tıklayın.
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content end -->
+
+
+    <!--aplication complated Modal-->
+    <div
+    class="modal"
+    id="applicationComplatedModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="applicationComplatedModal"
+    aria-hidden="true"
+  >
+    <div
+      class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+      role="document"
+    >
+      <div class="modal-content">      
+            <div class="row w-100 m-0 justify-content-end">
+          <button type="button" class="btn text-secondary font-weight-bolder" data-dismiss="modal">
+            X
+          </button>
+        </div>
+        <div class="row m-0 py-3 px-5 text-center">
+          <div class="text-warning w-100"><i class="far fa-thumbs-up fa-5x"></i></div>
+          <div class="text-warning h3 mt-3 font-weighht-bolder text-center w-100">Başvurunuz alındı.</div>
+         <p class="text-left">Başvurunuz onaylandığı takdirde bilgilendirme maili size gönderilecektir.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--aplication complated Modal End-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
