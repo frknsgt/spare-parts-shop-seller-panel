@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Satıcı Kayıt</title>
+    <link href="css/package-payment-card-information.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+</head>
+
+<body class="p-0">
+    <!-- banner -->
+    <div class="banner-box">
+        <div class="row m-0 h-75 pl-0 pl-md-2">
+            <div class="col-12 col-md-2 p-3 banner-logo"></div>
+            <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+                <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+                    <div class="row m-0 justify-content-between">
+                        <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#bannerMenu" aria-controls="bannerMenu" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="bannerMenu">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item mr-2 dropdown text-white">
+                                        <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            ÜRÜN
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="product">
+                                            <a class="dropdown-item" href="#">Motor</a>
+                                            <a class="dropdown-item" href="#">Yağ</a>
+                                            <a class="dropdown-item" href="#">Antifiriz</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mr-2 dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            SİPARİŞ
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="order">
+                                            <a class="dropdown-item" href="#">Geçmiş Siparişlerim</a>
+                                            <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mr-2 dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            ÖDEME VE FATURA
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="paymentAndBill">
+                                            <a class="dropdown-item" href="#">Faturalar</a>
+                                            <a class="dropdown-item" href="#">Ödemeler</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mr-2 dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            PROMOSYONLAR
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                                            <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                                            <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <a class="nav-link" href="#">RAPOR</a>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                                    </li>
+                                    <li class="nav-item mr-2">
+                                        <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <span class="text-white pt-1">
+                            <a href="" class="d-inline-block mr-2 banner-icon"><i
+                                    class="fas fa-comment-dots fa-1x"></i></a>
+                            <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
+                            <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                class="banner-icon d-inline-block mr-2 dropdown-toggle"><i
+                                    class="fas fa-user fa-1x"></i><span class="profile-text"> Aykut Yedek
+                                    Parça</span></a>
+                            <div class="dropdown-menu" aria-labelledby="profile">
+                                <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                                <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                                <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                            </div>
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- content -->
+    <div class="container mt-5">
+        <h1 class="text-warning text-center font-weight-bold">Ödemeyi Yap</h1>
+        <div class="row m-0 bg-white rounded-lg py-5 px-2 px-lg-5 mb-4 shadow">
+            <div class="w-100 h5 mb-0 font-weight-bolder text-warning">
+                <input type="checkbox" class="mr-2">3 Aylık Üyelik Paketi
+            </div>
+            <div class="row w-100 m-0 justify-content-between mt-2">
+                <p>Üyelik paketini satın aldığınız günden itibaren 3 ay kullanabilirsiniz.</p>
+                <p>100 TL + KDV</p>
+            </div>
+            <hr class="w-100 my-2">
+            <div class="row w-100 m-0 justify-content-end">
+                <p class="font-weight-bolder"><span class="mr-5">KDV Dahil Toplam</span> <span class="text-warning h5 mb-0">123 TL</span></p>
+            </div>
+        </div>
+        <div class="row m-0 bg-white rounded-lg py-5 px-2 px-lg-5 mb-4 shadow mt-5">
+            <h4 class="font-weight-bold w-100">ÖDEME BİLGİLERİ</h4>
+            <div class="col pl-0 payment-input">
+                <input type="text" placeholder="Kart Numarası" class="w-100 p-1 border mb-3" />
+                <input type="text" placeholder="Kartın Üzerindeki İsim" class="w-100 p-1 border mb-3" />
+                <input type="text" class="p-1 w-100 border mb-3" placeholder="Son Kullanma Tarihi AA/YY" />
+
+                <div class="row w-100 p-1 m-0">
+                    <input type="text" class="p-1 border mb-3" placeholder="CVC2" />
+                    <a href="#" class="text-primary ml-3 pt-1">CVC2 Nedir?</a>
+                </div>
+            </div>
+            <div class="col pr-0">
+                <div class="credit-cart m-0 float-right">
+                    <p class="text-light credit-cart-number">0000 0000 0000 0000</p>
+                    <p class="text-light credit-cart-name">İsim Soyisim</p>
+                    <p class="text-light credit-cart-month">AA/YY</p>
+                </div>
+            </div>
+            <div class="w-100">
+                <input type="checkbox" class="mr-2">Satış sözleşmesini okudum , onaylıyorum.
+            </div>
+            <a href="#paymentComplatedModal" data-target="#paymentComplatedModal" data-toggle="modal" class="btn btn-warning h4 mb-0 font-weight-bolder px-5 py-1 mt-3 text-white rounded-lg">SATIN AL</a>
+        </div>
+    </div>
+    <!-- content end -->
+
+
+    <!--aplication complated Modal-->
+    <div class="modal" id="paymentComplatedModal" tabindex="-1" role="dialog"
+        aria-labelledby="paymentComplatedModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="row w-100 m-0 justify-content-end">
+                    <button type="button" class="btn text-secondary font-weight-bolder" data-dismiss="modal">
+                        X
+                    </button>
+                </div>
+                <div class="row m-0 py-3 px-5 text-center">
+                    <div class="text-warning w-100"><i class="far fa-thumbs-up fa-5x"></i></div>
+                    <div class="text-warning h3 mt-3 font-weighht-bolder text-center w-100">Ödeme onaylandı.</div>
+                    <p class="text-left">3 aylık üyelik paketiniz hesabınıza tanımlanmıştır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--aplication complated Modal End-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
