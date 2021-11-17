@@ -344,22 +344,24 @@
                   <div class="col-12 mt-5 text-center"></div>
                 </div>
               </div>
-              <input
-                type="button"
-                name="next"
-                class="
-                  next
-                  btn btn-warning
-                  font-weight-bolder
-                  next
-                  text-light
-                  rounded
-                  mr-5
-                  nowrap
-                  action-button
-                "
-                value="KAYDET & DEVAM ET"
-              />
+              <div class="row m-0 px-5 justify-content-end">
+                <input
+                  type="button"
+                  name="next"
+                  class="
+                    next
+                    btn btn-warning
+                    font-weight-bolder
+                    next
+                    text-light
+                    rounded
+                    nowrap
+                    action-button
+                    d-inline-block
+                  "
+                  value="KAYDET & DEVAM ET"
+                />
+              </div>
             </b>
             <b id="informations">
               <div class="row m-0 w-100 px-5">
@@ -389,35 +391,37 @@
                   />
                 </div>
               </div>
-              <input
-                type="button"
-                name="previous"
-                class="
-                  previous
-                  action-button
-                  btn btn-secondary
-                  text-light
-                  rounded
-                  float-left
-                  margin-widht-left
-                "
-                value="GERİ DÖN"
-              />
-              <input
-                type="button"
-                name="next"
-                class="
-                  next
-                  action-button
-                  btn btn-warning
-                  text-light
-                  rounded
-                  nowrap
-                  float-right
-                  margin-widht-right
-                "
-                value="KAYDET & DEVAM ET"
-              />
+              <div class="row m-0 px-5 justify-content-between">
+                <input
+                  type="button"
+                  name="previous"
+                  class="
+                    previous
+                    action-button
+                    btn btn-secondary
+                    text-light
+                    rounded
+                    float-left
+                    margin-widht-left
+                  "
+                  value="GERİ DÖN"
+                />
+                <input
+                  type="button"
+                  name="next"
+                  class="
+                    next
+                    action-button
+                    btn btn-warning
+                    text-light
+                    rounded
+                    nowrap
+                    float-right
+                    margin-widht-right
+                  "
+                  value="KAYDET & DEVAM ET"
+                />
+              </div>
             </b>
             <b id="informations">
               <div class="row m-0 w-100 px-5">
@@ -1168,9 +1172,9 @@
       $(".next").click(function () {
         if (animating) return false;
         animating = true;
-        current_fs = $(this).parent();
-        next_fs = $(this).parent().next();
-        previous_fs = $(this).parent().prev();
+        current_fs = $(this).parent().parent();
+        next_fs = $(this).parent().parent().next();
+        previous_fs = $(this).parent().parent().prev();
         $("#sendInformation li")
           .eq($("b").index(next_fs))
           .addClass("active text-decoration");
@@ -1201,8 +1205,8 @@
       $(".previous").click(function () {
         if (animating) return false;
         animating = true;
-        current_fs = $(this).parent();
-        previous_fs = $(this).parent().prev();
+        current_fs = $(this).parent().parent();
+        previous_fs = $(this).parent().parent().prev();
         $("#sendInformation li")
           .eq($("b").index(current_fs))
           .removeClass("active text-decoration");
@@ -1236,8 +1240,8 @@
       $(".submit").click(function () {
         if (animating) return false;
         animating = true;
-        current_fs = $(this).parent().parent();
-        next_fs = $(this).parent().parent().next();
+        current_fs = $(this).parent().parent().parent();
+        next_fs = $(this).parent().parent().parent().next();
         $("#progressbar li")
           .eq($("fieldset").index(next_fs))
           .addClass("active");

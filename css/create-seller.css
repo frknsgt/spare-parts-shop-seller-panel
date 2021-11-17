@@ -86,14 +86,12 @@ body {
   font-size: 13px;
 }
 #msform .action-button {
-  width: 300px;
   font-weight: bold;
   color: white;
   border: 0 none;
   border-radius: 1px;
   cursor: pointer;
   padding: 10px 5px;
-  margin: 10px 5px;
 }
 #msform .action-button:hover,
 #msform .action-button:focus {
@@ -256,9 +254,10 @@ b {
 .btn-font {
   width: 75px !important;
 }
-
 .next,
 .previous {
-  margin: 0 3rem !important;
-  width: calc(50% - 6rem) !important;
+  width: 300px !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: calc(50% - 2.5rem) !important;
 }
