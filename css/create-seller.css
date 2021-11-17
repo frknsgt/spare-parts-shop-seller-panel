@@ -204,16 +204,6 @@ b {
   -o-border-radius: 10px;
 }
 
-.margin-widht-right {
-  width: 47% !important;
-  margin-right: 15px !important;
-}
-
-.margin-widht-left {
-  width: 47% !important;
-  margin-left: 15px !important;
-}
-
 .mt-9 {
   width: calc(100% - 20px) !important;
   font-size: 11px;
@@ -222,4 +212,53 @@ b {
 .mt-7 {
   width: 10px !important;
   margin-top: 2px;
+}
+
+.brdr {
+  border: 2px grey dashed;
+}
+
+.pdfborder {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: solid 1px grey;
+}
+
+.a-font {
+  font-size: 12px;
+}
+
+.p-widht {
+  width: calc(100% - 20px) !important;
+}
+
+.company-border {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.text-font {
+  width: 175px !important;
+  margin-right: 25px;
+}
+
+.input-font {
+  width: calc(100% - 330px) !important;
+  margin-left: 25px;
+}
+
+.btn-font {
+  width: 75px !important;
+}
+
+.next,
+.previous {
+  margin: 0 3rem !important;
+  width: calc(50% - 6rem) !important;
 }
