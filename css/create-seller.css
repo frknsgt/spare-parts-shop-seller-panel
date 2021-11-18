@@ -255,7 +255,8 @@ b {
   width: 75px !important;
 }
 .next,
-.previous {
+.previous,
+.submit {
   width: 300px !important;
   margin-left: 1rem;
   margin-right: 1rem;

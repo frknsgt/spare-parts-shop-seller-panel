@@ -216,7 +216,7 @@
                     <p class="text-warning mt-1">KEP ADRESİ</p>
                     <input
                       type="text"
-                      class="bg-light rounded-lg text-muted border w-100 p-2"
+                      class="rounded-lg text-muted border w-100 p-2"
                       placeholder="Kep Adresi Giriniz  "
                     />
                   </div>
@@ -224,7 +224,7 @@
                     <p class="text-warning mt-1">KEP ADRESİ</p>
                     <input
                       type="text"
-                      class="bg-light rounded-lg text-muted border w-100 p-2"
+                      class="rounded-lg text-muted border w-100 p-2"
                       placeholder="Kep Adresi Giriniz"
                     />
                   </div>
@@ -232,111 +232,47 @@
                 <div class="row m-0 w-100">
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">VERGİ DAİRESİ</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          border
-                          text-left
-                          bg-light
-                          text-muted
-                          dropdown-toggle
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Vergi Dairesi Seçiniz
-                      </button>
-                      <div
-                        class="dropdown-menu w-100"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >İstanbul</a
-                        >
-                        <a class="dropdown-item text-center" href="#">Bursa</a>
-                      </div>
-                    </div>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="VERGİ DAİRESİ"
+                    >
+                      <option>Vergi Dairesi Seçiniz</option>
+                      <option>İstanbul</option>
+                      <option>Bursa</option>
+                    </select>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">VERGİ DAİRESİ</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          bg-light
-                          text-muted
-                          dropdown-toggle
-                          border
-                          text-left
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Fatura Türü Seçiniz
-                      </button>
-                      <div
-                        class="dropdown-menu w-100"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >İrsaliyeli Fatura</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Proforma Fatura</a
-                        >
-                      </div>
-                    </div>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="FATURA TÜRÜ"
+                    >
+                      <option>Fatura Türü Seçiniz</option>
+                      <option>İrsaliyeli Fatura</option>
+                      <option>Proforma Fatura</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row m-0 w-100 mt-2">
                   <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">Şirket Türü</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          bg-light
-                          border
-                          text-left text-muted
-                          dropdown-toggle
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Vergi Dairesi Seçiniz
-                      </button>
-                      <div
-                        class="dropdown-menu w-100"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >İstanbul</a
-                        >
-                        <a class="dropdown-item text-center" href="#">Bursa</a>
-                      </div>
-                    </div>
+                    <p class="text-warning">ŞİRKET TÜRÜ</p>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="ŞİRKET TÜRÜ"
+                    >
+                      <option>Şirket Türü Seçiniz</option>
+                      <option>Anonim</option>
+                      <option>Limited</option>
+                    </select>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">VKN / TCKN</p>
                     <input
                       type="text"
-                      class="rounded bg-light border shadow rounded w-100 p-2"
+                      class="rounded border shadow rounded w-100 p-2"
                     />
                   </div>
                 </div>
@@ -380,14 +316,14 @@
                   <input
                     type="text"
                     placeholder="Banka Adı"
-                    class="rounded border bg-light w-100 p-2"
+                    class="rounded border w-100 p-2"
                   />
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <input
                     type="text"
                     placeholder="TR00 0000 0000 0000 0000 0000 00"
-                    class="rounded border bg-light p-2"
+                    class="rounded border p-2"
                   />
                 </div>
               </div>
@@ -438,7 +374,7 @@
                 <div class="row m-0 w-100 mt-2">
                   <input
                     type="text"
-                    class="border rounded bg-light w-100 ml-3 mr-5 p-2"
+                    class="border rounded w-100 ml-3 mr-3 p-2"
                     placeholder="Banka Adı"
                   />
                 </div>
@@ -447,7 +383,7 @@
                     <p class="text-warning">KARGO ŞİRKETİ</p>
                     <input
                       type="text"
-                      class="border rounded bg-light w-100 p-2"
+                      class="border rounded w-100 p-2"
                       placeholder="KARGO ŞİRKETİ"
                     />
                   </div>
@@ -455,7 +391,7 @@
                     <p class="text-warning">KARGO TESLİM SÜRESİ</p>
                     <input
                       type="text"
-                      class="border rounded bg-light w-100 p-2"
+                      class="border rounded w-100 p-2"
                       placeholder="2 Gün / 48 Saat"
                     />
                   </div>
@@ -465,74 +401,55 @@
                     <p class="text-warning">TERCİH EDİLEN ENTEGRASYON MODELİ</p>
                     <input
                       type="text"
-                      class="rounded border bg-light p-2 w-100"
+                      class="rounded border p-2 w-100"
                       placeholder="Entegrasyon Modeli"
                     />
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">ENTEGRASYON FİRMALARI</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          bg-light
-                          text-muted
-                          dropdown-toggle
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Entegrasyon Firması
-                      </button>
-                      <div
-                        class="dropdown-menu w-100 w-75"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >X Firması</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Y Firması</a
-                        >
-                      </div>
-                    </div>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="VERGİ DAİRESİ"
+                    >
+                      <option>Entegrasyon Firması Seçiniz</option>
+                      <option>X Firması</option>
+                      <option>Y Firması</option>
+                    </select>
                   </div>
                 </div>
               </div>
-              <input
-                type="button"
-                name="previous"
-                class="
-                  previous
-                  action-button
-                  btn btn-secondary
-                  text-light
-                  rounded
-                  float-left
-                  margin-widht-left
-                "
-                value="GERİ DÖN"
-              />
-              <input
-                type="button"
-                name="next"
-                class="
-                  next
-                  action-button
-                  btn btn-warning
-                  text-light
-                  rounded
-                  nowrap
-                  float-right
-                  margin-widht-right
-                "
-                value="KAYDET & DEVAM ET"
-              />
+              <div class="row m-0 px-5 justify-content-between">
+                <input
+                  type="button"
+                  name="previous"
+                  class="
+                    previous
+                    action-button
+                    btn btn-secondary
+                    text-light
+                    rounded
+                    float-left
+                    margin-widht-left
+                  "
+                  value="GERİ DÖN"
+                />
+                <input
+                  type="button"
+                  name="next"
+                  class="
+                    next
+                    action-button
+                    btn btn-warning
+                    text-light
+                    rounded
+                    nowrap
+                    float-right
+                    margin-widht-right
+                  "
+                  value="KAYDET & DEVAM ET"
+                />
+              </div>
             </b>
             <b id="informations">
               <div class="row m-0 w-100 px-5">
@@ -545,69 +462,29 @@
                 <div class="row m-0 w-100 mt-2">
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">İL</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          bg-light
-                          text-muted
-                          dropdown-toggle
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        İl Seçiniz
-                      </button>
-                      <div
-                        class="dropdown-menu w-100"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >İstanbul</a
-                        >
-                        <a class="dropdown-item text-center" href="#">İzmir</a>
-                        <a class="dropdown-item text-center" href="#">Ankara</a>
-                      </div>
-                    </div>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="VERGİ DAİRESİ"
+                    >
+                      <option>İl Seçiniz</option>
+                      <option>İstanbul</option>
+                      <option>İzmir</option>
+                      <option>Ankara</option>
+                    </select>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-warning">İLÇE</p>
-                    <div class="dropdown">
-                      <button
-                        class="
-                          btn btn-secondary
-                          bg-light
-                          text-muted
-                          dropdown-toggle
-                          w-100
-                          p-2
-                        "
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        İlçe Seçiniz
-                      </button>
-                      <div
-                        class="dropdown-menu w-75 w-75"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a class="dropdown-item text-center" href="#">Etiler</a>
-                        <a class="dropdown-item text-center" href="#"
-                          >Beylikdüzü</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Mecidiyeköy</a
-                        >
-                      </div>
-                    </div>
+                    <select
+                      type="text"
+                      class="p-2 w-100 border"
+                      placeholder="VERGİ DAİRESİ"
+                    >
+                      <option>İlçe Seçiniz</option>
+                      <option>Etiler</option>
+                      <option>Beylikdüzü</option>
+                      <option>İkitelli</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row m-0 w-100 mt-2">
@@ -615,7 +492,7 @@
                     <p class="text-warning text-left">ADRES</p>
                     <input
                       type="text"
-                      class="border rounded bg-light p-2"
+                      class="border rounded p-2"
                       placeholder="Adres Giriniz"
                     />
                   </div>
@@ -739,31 +616,37 @@
                   </div>
                 </div>
               </div>
-              <input
-                type="button"
-                name="previous"
-                class="
-                  previous
-                  action-button
-                  btn btn-secondary
-                  rounded
-                  text-light
-                "
-                value="GERİ DÖN"
-              />
-              <input
-                type="button"
-                name="next"
-                class="
-                  next
-                  action-button
-                  btn btn-warning
-                  rounded
-                  text-light
-                  nowrap
-                "
-                value="KAYDET & DEVAM ET"
-              />
+              <div class="row m-0 px-5 justify-content-between">
+                <input
+                  type="button"
+                  name="previous"
+                  class="
+                    previous
+                    action-button
+                    btn btn-secondary
+                    text-light
+                    rounded
+                    float-left
+                    margin-widht-left
+                  "
+                  value="GERİ DÖN"
+                />
+                <input
+                  type="button"
+                  name="next"
+                  class="
+                    next
+                    action-button
+                    btn btn-warning
+                    text-light
+                    rounded
+                    nowrap
+                    float-right
+                    margin-widht-right
+                  "
+                  value="KAYDET & DEVAM ET"
+                />
+              </div>
             </b>
             <b id="informations">
               <div class="row m-0 w-100 mt-2 px-5">
@@ -800,32 +683,37 @@
                   Politikası okudum , kabul ediyorum.
                 </p>
               </div>
-              <input
-                type="button"
-                name="previous"
-                class="
-                  previous
-                  action-button
-                  btn btn-secondary
-                  rounded
-                  text-light
-                  margin-widht-right
-                "
-                value="BİLGİLERİMİ KONTROL ETMEK İSTİYORUM"
-              />
-              <input
-                type="button"
-                name="submit"
-                class="
-                  submit
-                  action-button
-                  btn btn-warning
-                  rounded
-                  text-light
-                  margin-widht-right
-                "
-                value="BİLGİLERİMİN DOĞRULUĞUNU ONAYLIYORUM"
-              />
+              <div class="row m-0 px-5 justify-content-between">
+                <input
+                  type="button"
+                  name="previous"
+                  class="
+                    previous
+                    action-button
+                    btn btn-secondary
+                    text-light
+                    rounded
+                    float-left
+                    margin-widht-left
+                  "
+                  value="BİLGİLERİMİ KONTROL ETMEK İSTİYORUM"
+                />
+                <input
+                  type="button"
+                  name="submit"
+                  class="
+                    submit
+                    action-button
+                    btn btn-warning
+                    text-light
+                    rounded
+                    nowrap
+                    float-right
+                    margin-widht-right
+                  "
+                  value="BİLGİLERİMİN DOĞRULUĞUNU ONAYLIYORUM"
+                />
+              </div>
             </b>
           </fieldset>
           <fieldset>
@@ -878,16 +766,7 @@
                 </div>
                 <div class="row m-0 w-100">
                   <div
-                    class="
-                      col-6
-                      brdr
-                      bg-light
-                      shadow
-                      rounded
-                      mt-3
-                      pb-5
-                      cursor-pointer
-                    "
+                    class="col-6 brdr shadow rounded mt-3 pb-5 cursor-pointer"
                   >
                     <div class="row m-0 h-100 align-items-center">
                       <span class="d-inline-block h-50">
@@ -965,21 +844,24 @@
                   </div>
                 </div>
               </div>
-              <input
-                type="button"
-                name="next"
-                class="
-                  next
-                  action-button
-                  btn btn-warning
-                  rounded
-                  text-light
-                  float-right
-                  w-50
-                  mt-5
-                "
-                value="KAYDET & ONAYLA"
-              />
+              <div class="row m-0 px-5 justify-content-end mt-3">
+                <input
+                  type="button"
+                  name="next"
+                  class="
+                    next
+                    btn btn-warning
+                    font-weight-bolder
+                    next
+                    text-light
+                    rounded
+                    nowrap
+                    action-button
+                    d-inline-block
+                  "
+                  value="KAYDET & ONAYLA"
+                />
+              </div>
             </b>
             <b id="informations">
               <div class="row m-0 w-100 px-5">
@@ -1080,67 +962,146 @@
                   </button>
                 </div>
               </div>
-              <input
-                type="button"
-                name="previous"
-                class="
-                  previous
-                  action-button
-                  btn btn-secondary
-                  rounded
-                  text-light
-                "
-                value="Geri Dön"
-              />
-              <input
-                type="button"
-                name="next"
-                class="next action-button btn btn-warning rounded text-light"
-                value="DEVAM ET"
-              />
+              <div class="row m-0 px-5 justify-content-between mt-3">
+                <input
+                  type="button"
+                  name="previous"
+                  class="
+                    previous
+                    action-button
+                    btn btn-secondary
+                    text-light
+                    rounded
+                    float-left
+                    margin-widht-left
+                  "
+                  value="GERİ DÖN"
+                />
+                <input
+                  type="button"
+                  name="submit"
+                  class="
+                    submit
+                    action-button
+                    btn btn-warning
+                    text-light
+                    rounded
+                    nowrap
+                    float-right
+                    margin-widht-right
+                  "
+                  value="KAYDET & DEVAM ET"
+                />
+              </div>
             </b>
           </fieldset>
           <fieldset>
-            <h2 class="fs-title">Question 3</h2>
-            <h3 class="fs-subtitle">What have been your main achievements?</h3>
-            <textarea
-              class="form-control"
-              name="CAT_Custom_3"
-              id="CAT_Custom_3"
-              rows="4"
-              onkeydown="if(this.value.length>=4000)this.value=this.value.substring(0,3999);"
-            ></textarea>
-            <input
-              type="button"
-              name="next"
-              class="submit action-button"
-              value="Next"
-            />
+            <h2 class="fs-title text-warning text-left px-5">BELGE KONTROLÜ</h2>
+            <p class="fs-subtitle text-muted text-left px-5">
+              Belge kontrolü aşamasında yüklemiş olduğunuz 2 adet dosyanın
+              hatalı olduğu tespit edilmiştir. Lütfen dosyalarınızı
+              güncelleyiniz.
+            </p>
+            <div class="row m-0 px-5 justify-content-start mt-3">
+              <div class="w-100 text-left">
+                <input
+                  type="button"
+                  name="submit"
+                  class="
+                    submit
+                    btn btn-warning
+                    font-weight-bolder
+                    text-light
+                    rounded
+                  "
+                  value="BİLGİLERİMİ GÜNCELLE"
+                />
+              </div>
+            </div>
           </fieldset>
           <fieldset>
-            <h2 class="fs-title">Question 4</h2>
-            <h3 class="fs-subtitle">
-              What do you consider your main weaknesses to be?
-            </h3>
-            <textarea
-              class="form-control"
-              name="CAT_Custom_4"
-              id="CAT_Custom_4"
-              rows="4"
-              onkeydown="if(this.value.length>=4000)this.value=this.value.substring(0,3999);"
-            ></textarea>
-            <input
-              type="sumbit"
-              name="submit"
-              class="action-button"
-              value="Submit"
-            />
+            <h2 class="fs-title text-left text-warning font-weight-bolder px-5">
+              BELGE KONTROLÜ
+            </h2>
+            <p class="fs-subtitle text-left text-muted px-5">
+              Belgeleriniz onaylanmıştır. Ürünleriniz kontrol edildikten sonra
+              satışa başlayabilirsiniz. Kontrol aşaması bir kaç gün sürebilir.
+              Ürün Yönetimi ekranından yeni ürün ekleyebilir , daha önce
+              yüklediğiniz ürünlerinizin onay durumunu kontrol edebilirsiniz.
+            </p>
+            <div class="row m-0 px-5 justify-content-start mt-3">
+              <a
+                type="button"
+                class="
+                  btn btn-warning
+                  font-weight-bolder
+                  text-light
+                  rounded
+                  d-inline-block
+                "
+                href="select-package.html"
+                >PAKET SEÇ</a
+              >
+            </div>
           </fieldset>
         </form>
       </div>
     </div>
     <!-- content end -->
 
+    <!--Completed Modal-->
+    <div
+      class="modal"
+      id="completedModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="completedModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-6">
+                  <h3 class="font-weight-bolder text-warning">
+                    Bilgi ve Belgeleriniz Başarıyla Yüklenmiştir
+                  </h3>
+                  <p class="text-muted">
+                    Yüklediğiniz bilgi ve belgeler ekiplerimiz tarafından
+                    kontrol edilecektir. Tüm evraklarınız onaylandıktan sonra
+                    hesabınız aktifleştirilecektir. Değerlendirmelerden sonra
+                    tarafınıza e-postanız üzerinden dönüş yapılacaktır.
+                    E-postanızı düzenli olarak takip etmenizi rica ederiz.
+                  </p>
+                  <br /><br />
+                  <p class="text-muted">
+                    Bu esnada ürünlerinizi onaya göndermek üzere yüklemeye
+                    başlayabilirsiniz.
+                  </p>
+                  <button class="btn btn-warning text-light rounded">
+                    ANASAYFAYA GİT
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Completed Modal End-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
