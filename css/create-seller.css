@@ -268,3 +268,50 @@ b {
   margin-right: 1rem;
   width: calc(50% - 2.5rem) !important;
 }
+.previous {
+  background-color: #e1e2e3 !important;
+  color: white !important;
+}
+@media screen and (max-width: 768px) {
+  #progressbar {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+  }
+  #progressbar li {
+    list-style-type: none;
+    color: #7c8ca9;
+    text-transform: uppercase;
+    font-size: 9px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 13px;
+    font-size: 8px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    width: 50px;
+    float: left;
+  }
+  #progressbar li.active {
+    color: #feb737;
+  }
+  #progressbar li:before {
+    width: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  #progressbar li:after {
+    background: none !important;
+  }
+  .next,
+  .previous,
+  .submit {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: calc(100% - 2rem) !important;
+    margin-top: 10px;
+  }
+}
