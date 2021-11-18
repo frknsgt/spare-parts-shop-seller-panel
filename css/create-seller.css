@@ -173,6 +173,11 @@ body {
   font-size: 11px;
   font-weight: 900;
 }
+@media screen and (max-width: 1200px) {
+  #sendInformation li {
+    display: none;
+  }
+}
 #sendInformation li::before {
   content: "\2192";
   width: 15px;
@@ -190,6 +195,7 @@ body {
 }
 .text-decoration {
   border-bottom: #feb737 1px solid;
+  display: block !important;
 }
 b {
   font-weight: normal !important;
