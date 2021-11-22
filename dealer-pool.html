@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>BAYİ HAVUZU</title>
+    <link href="css/dealer-pool.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+  </head>
+
+  <body class="p-0">
+    <!-- banner -->
+    <div class="banner-box mt-1">
+      <div class="row m-0 h-75 pl-0 pl-md-2">
+        <div class="col-12 col-md-2 p-3 banner-logo"></div>
+        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+          <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+            <div class="row m-0 justify-content-between">
+              <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#bannerMenu"
+                  aria-controls="bannerMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bannerMenu">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mr-2 dropdown text-white">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="product"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÜRÜN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="product">
+                        <a class="dropdown-item" href="#">Motor</a>
+                        <a class="dropdown-item" href="#">Yağ</a>
+                        <a class="dropdown-item" href="#">Antifiriz</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="order"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        SİPARİŞ
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="order">
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Siparişlerim</a
+                        >
+                        <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="paymentAndBill"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÖDEME VE FATURA
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="paymentAndBill"
+                      >
+                        <a class="dropdown-item" href="#">Faturalar</a>
+                        <a class="dropdown-item" href="#">Ödemeler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        PROMOSYONLAR
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Promosyonlar</a
+                        >
+                        <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">RAPOR</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <span class="text-white pt-1">
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-comment-dots fa-1x"></i
+                ></a>
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-bell fa-1x"></i
+                ></a>
+                <a
+                  href="#"
+                  id="profile"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="banner-icon d-inline-block mr-2 dropdown-toggle"
+                  ><i class="fas fa-user fa-1x"></i
+                  ><span class="profile-text"> Aykut Yedek Parça</span></a
+                >
+                <div class="dropdown-menu" aria-labelledby="profile">
+                  <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                  <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                  <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!--Sidebar-->
+    <div
+        class="w-100 collapse mb-md-3 mt-md-0 font-weight-bolder"
+        id="searchInput"
+      >
+        <a
+          class="search-close"
+          href="#searchInput"
+          data-toggle="collapse"
+          data-target="#searchInput"
+          >X</a
+        >
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Site içi ürün arama"
+          onkeydown="search(this)"
+        />
+      </div>
+      <div
+        class="
+          w3-bar-block w3-card w3-animate-left
+          sidebar-box
+          text-truncate
+          p-0
+        "
+        id="mySidebar"
+      >
+        <button
+          class="w3-bar-item w3-button w3-large text-right d-block d-md-none"
+          onclick="w3_close()"
+        >
+          &times;
+        </button>
+        <div class="category-banner px-1 px-md-3 py-2 row m-0">
+          <div class="col p-0 category-menu-icon-col d-none d-md-block">
+            <a
+              data-toggle="collapse"
+              href="#categoryMenu"
+              role="button"
+              aria-expanded="false"
+              aria-controls="categoryMenu"
+              ><i class="fas fa-bars category-menu-icon"></i
+            ></a>
+          </div>
+          <div class="col p-0">
+            <h6 class="text-center my-0 ml-md-3 category-title">
+              TÜM KATEGORİLER
+            </h6>
+          </div>
+        </div>
+        <div class="pl-2 collapse show" id="categoryMenu">
+          <a class="category-text car-menu row m-0 my-2">
+            <i class="fas fa-car mr-2 mt-1"></i> Otomobil
+          </a>
+          <div class="car-menu car-menu-content p-3">
+            <div class="row m-0">
+              <div class="col-sm-3 col-6">
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Alfa Romeo</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Aston Martin</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Audi</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Bentley</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>BMW</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Bugatti</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Buick</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Cadillac</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Mercedes Benz</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>BMW</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Volkswagen</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Opel</p></a
+                >
+                <a
+                  class="cursor-pointer text-light"
+                  href="#carMenuContent"
+                  data-toggle="collapse"
+                  data-target="#carMenuContent"
+                  ><p>Renault</p></a
+                >
+              </div>
+              <div class="col-sm-3 col-6 mb-3">
+                <div class="collapse" id="carMenuContent">
+                  <a class="cursor-pointer text-light"><p>Ateşleme</p></a>
+                  <a class="cursor-pointer text-light"><p>Egzoz</p></a>
+                  <a class="cursor-pointer text-light"><p>Filtre</p></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-12">
+                <img src="images/sidebar1.png" class="w-100" />
+                <div class="w-50 pr-2 pt-3 float-left">
+                  <img src="images/sidebar2.png" class="w-100" />
+                </div>
+                <div class="w-50 pl-2 pt-3 float-left">
+                  <img src="images/sidebar3.png" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="collapse" id="otomobil">
+            <a
+              class="category-text pl-5 row"
+              data-toggle="collapse"
+              href="#audi"
+              role="button"
+              aria-expanded="false"
+              aria-controls="audi"
+              >Audi</a
+            >
+            <div class="collapse pl-5" id="audi">
+              <a class="category-text row m-0 cursor-pointer">Ateşleme</a>
+              <a class="category-text row m-0 cursor-pointer">Egzoz</a>
+              <a class="category-text row m-0 cursor-pointer">Filtre</a>
+            </div>
+            <a
+              class="category-text pl-5 row"
+              data-toggle="collapse"
+              href="#seat"
+              role="button"
+              aria-expanded="false"
+              aria-controls="seat"
+              >Seat</a
+            >
+            <div class="collapse pl-5" id="seat">
+              <a class="category-text row m-0 cursor-pointer">Ateşleme</a>
+              <a class="category-text row m-0 cursor-pointer">Egzoz</a>
+              <a class="category-text row m-0 cursor-pointer">Filtre</a>
+            </div>
+            <a
+              class="category-text pl-5 row"
+              data-toggle="collapse"
+              href="#volkswagen"
+              role="button"
+              aria-expanded="false"
+              aria-controls="volkswagen"
+              >Volkswagen</a
+            >
+            <div class="collapse pl-5" id="volkswagen">
+              <a class="category-text row m-0 cursor-pointer">Ateşleme</a>
+              <a class="category-text row m-0 cursor-pointer">Egzoz</a>
+              <a class="category-text row m-0 cursor-pointer">Filtre</a>
+            </div>
+          </div> -->
+        </div>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-car-side mr-2 mt-1"></i> Araç Bakım Seti
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-car-battery mr-2 mt-1"></i> Motor
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-oil-can mr-2 mt-1"></i> Yağlar ve Antifriz
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-charging-station mr-2 mt-1"></i> Akü ve Elektrik
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-parking mr-2 mt-1"></i> Park Sensörü
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-tachometer-alt mr-2 mt-1"></i>Basınç Sensörü
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-car-crash mr-2 mt-1"></i> Yedek Parça
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-award mr-2 mt-1"></i> Çok Satanlar
+        </a>
+        <a class="category-text row m-0 my-2 pl-2">
+          <i class="fas fa-bullhorn mr-2 mt-1"></i> Kampanyalı Ürünler
+        </a>
+
+        <img src="images/reklam1.png" width="100%" class="mb-3" />
+        <img src="images/reklam2.png" width="100%" class="mb-3" />
+        <img src="images/reklam3.png" width="100%" class="mb-3" />
+        <img src="images/reklam4.png" width="100%" class="mb-3" />
+      </div>
+
+      <a
+        id="openNav"
+        class="w3-xlarge category-open-menu d-block d-md-none p-2"
+        onclick="w3_open()"
+      >
+        &#9776;
+      </a>
+      <!--Sidebar End-->
+
+      <!-- content -->
+      <div class="row m-0">
+        <div class="row w-100 m-0 justify-content-center">
+          <h1 class="font-weight-bolder">BAYİ HAVUZU</h1>
+        </div>
+          <!--  cards  -->
+        <div class="row m-0 justify-content-start ml-2">
+          <a href="product-detail.html" class="mr-3 b-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content1.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">15 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content2.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">23 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content3.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">55 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content4.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">5 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content5.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">115 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content6.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">65 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content7.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL- <span class="a-font">75 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content8.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">185 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content9.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">9 Adet</span></div>
+            </div>
+          </a>
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content1.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">5 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content2.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">7 Adet</span></div>
+            </div>
+          </a>
+
+          <a href="product-detail.html" class="mr-3 mb-3">
+            <div class="cards border shadow card-text col-mw mb-2">
+              <div class="justify-content-between card-banner p-2">
+                <span class="d-inline-block px-2 py-1 discount">YENİ</span>
+                
+              </div>
+              <img
+                src="images/content3.png"
+                width="100%"
+                class="card-image border-bottom"
+              />
+              <p class="card-institution text-center">
+                Kahraman Otomotiv <br />
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </p>
+              <div class="row m-0 px-2 justify-content-between">
+                <span class="mt-3 text-truncate card-product-text"
+                  ><b>Otomatik Debriyaj Freni</b></span
+                >
+                <h4 class="mb-0">
+                  <i class="far fa-envelope"></i>
+                </h4>
+              </div>
+              <div class="px-2 mb-3">Ankara <br />165.00 TL - <span class="a-font">15 Adet</span></div>
+            </div>
+          </a>
+        </div>
+        <!--  cards end  -->
+      </div>
+      <!-- content end -->
+
+      <!--aplication complated Modal-->
+      <div
+        class="modal"
+        id="applicationComplatedModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="applicationComplatedModal"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="row w-100 m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-secondary font-weight-bolder"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 py-3 px-5 text-center">
+              <div class="text-warning w-100">
+                <i class="far fa-thumbs-up fa-5x"></i>
+              </div>
+              <div
+                class="
+                  text-warning
+                  h3
+                  mt-3
+                  font-weighht-bolder
+                  text-center
+                  w-100
+                "
+              >
+                Başvurunuz alındı.
+              </div>
+              <p class="text-left">
+                Başvurunuz onaylandığı takdirde bilgilendirme maili size
+                gönderilecektir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--aplication complated Modal End-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function liveSupportOpen() {
+        document.getElementById("liveSupport").style.display = "block";
+        document.getElementById("liveSupportOpen").style.display = "none";
+      }
+      function liveSupportClose() {
+        document.getElementById("liveSupport").style.display = "none";
+        document.getElementById("liveSupportOpen").style.display = "block";
+      }
+      function w3_open() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("openNav").style.display = "none";
+        document.getElementById("categoryMenu").classList.add("show");
+        document.getElementById("mySidebar").classList.remove("text-truncate");
+      }
+      function w3_close() {
+        document.getElementById("mySidebar").style.width = "0px";
+        document.getElementById("openNav").style.display = "inline-block";
+        document.getElementById("mySidebar").classList.add("text-truncate");
+      }
+      var currentTab = 0; // Current tab is set to be the first tab (0)
+      showTab(currentTab); // Display the current tab
+
+      function showTab(n) {
+        var x = document.getElementsByClassName("tab");
+        x[n].style.display = "block";
+        if (n == 0) {
+          document.getElementById("prevBtn").style.display = "none";
+        } else {
+          document.getElementById("prevBtn").style.display = "inline";
+        }
+        if (n == x.length - 1) {
+          document.getElementById("nextBtn").innerHTML = "Gönder";
+        } else {
+          document.getElementById("nextBtn").innerHTML = "İleri";
+        }
+        fixStepIndicator(n);
+      }
+
+      function nextPrev(n) {
+        document.getElementById("nextBtn").removeAttribute("data-target");
+        document.getElementById("nextBtn").removeAttribute("data-toggle");
+        var x = document.getElementsByClassName("tab");
+        if (n == 1 && !validateForm()) return false;
+        x[currentTab].style.display = "none";
+        currentTab = currentTab + n;
+        if (currentTab >= x.length) {
+          document
+            .getElementById("nextBtn")
+            .setAttribute("data-toggle", "modal");
+          document
+            .getElementById("nextBtn")
+            .setAttribute("data-target", "#confirmationModal");
+          //document.getElementById("regForm").reset();
+          currentTab = 0;
+          showTab(0);
+          return false;
+        }
+        showTab(currentTab);
+      }
+      function search(ele) {
+        if (event.key === "Enter") {
+          window.location.replace("products.html");
+        }
+      }
+      function validateForm() {
+        var x,
+          y,
+          i,
+          valid = true;
+        x = document.getElementsByClassName("tab");
+        y = x[currentTab].getElementsByTagName("input");
+        for (i = 0; i < y.length; i++) {
+          if (y[i].value == "") {
+            y[i].className += " invalid";
+            valid = false;
+          }
+        }
+        if (valid) {
+          document.getElementsByClassName("step")[currentTab].className +=
+            " finish";
+        }
+        valid = true;
+        return valid;
+      }
+
+      function fixStepIndicator(n) {
+        var i,
+          x = document.getElementsByClassName("step");
+        for (i = 0; i < x.length; i++) {
+          x[i].className = x[i].className.replace(" active", "");
+        }
+        x[n].className += " active";
+      }
+    </script>
+  </body>
+</html>
