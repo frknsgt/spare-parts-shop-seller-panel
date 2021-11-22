@@ -1,0 +1,1310 @@
+body {
+  background-color: #f2f2f2 !important;
+  min-height: 100vh;
+}
+
+/* banner */
+.banner-box {
+  padding-top: 9.5px;
+  background-color: white;
+  min-height: 100px;
+}
+.banner-logo {
+  background-image: url(../images/logo-bold.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  min-height: 60px;
+  max-height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .banner-logo {
+    background-size: auto 100%;
+    background-position: 20px center;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .banner-logo {
+    background-size: auto 100%;
+    background-position: center center;
+  }
+}
+.banner-menu-box {
+  background-color: #1a2225;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  font-size: 11px;
+}
+.navbar-toogler {
+  outline: none !important;
+}
+.navbar-dark .navbar-toggler:hover {
+  color: #e0e0e0 !important;
+  background-color: #292929;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e0e0e0 !important;
+}
+.profile-text {
+  font-weight: 500;
+  font-size: 11px;
+}
+#profile::after {
+  position: absolute;
+  margin-top: 11px;
+}
+.banner-icon:hover {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-Regular.otf");
+}
+
+* {
+  font-family: poppins !important;
+}
+.fas,
+.far,
+.fa {
+  font-family: "Font Awesome 5 Free" !important;
+}
+.banner {
+  background-color: #1a2225;
+  height: 100px;
+}
+.banner-logo {
+  max-height: 100%;
+  max-width: 35%;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 520px) {
+  .banner-logo {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .banner-logo {
+    padding-top: 30px;
+  }
+}
+.banner-logos {
+  width: 64px;
+  height: 64px;
+}
+.banner-logo-img {
+  max-width: 45px;
+  height: 70px;
+}
+.banner-logo1 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimation 15s infinite alternate;
+  -webkit-animation: imgAnimation 15s infinite alternate;
+  transition-duration: 0s;
+}
+.banner-logo-box {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+@keyframes imgAnimation {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-moz-keyframes imgAnimation {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimation {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimation {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo2 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationtwo 15s infinite alternate;
+  -webkit-animation: imgAnimationtwo 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationtwo {
+  0% {
+    background-image: url(../images/mercedes.png);
+  }
+  14% {
+    background-image: url(../images/peugeot.png);
+  }
+  28% {
+    background-image: url(../images/kia.png);
+  }
+  42% {
+    background-image: url(../images/bmw.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/audi.png);
+  }
+  100% {
+    background-image: url(../images/rover.png);
+  }
+}
+@-moz-keyframes imgAnimationtwo {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationtwo {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationtwo {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo3 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationthree 15s infinite alternate;
+  -webkit-animation: imgAnimationthree 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationthree {
+  0% {
+    background-image: url(../images/hyundai.png);
+  }
+  14% {
+    background-image: url(../images/audi.png);
+  }
+  28% {
+    background-image: url(../images/kia.png);
+  }
+  42% {
+    background-image: url(../images/peugeot.png);
+  }
+  67% {
+    background-image: url(../images/rover.png);
+  }
+  84% {
+    background-image: url(../images/bmw.png);
+  }
+  100% {
+    background-image: url(../images/mercedes.png);
+  }
+}
+@-moz-keyframes imgAnimationthree {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationthree {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationthree {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo4 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationfour 15s infinite alternate;
+  -webkit-animation: imgAnimationfour 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationfour {
+  0% {
+    background-image: url(../images/rover.png);
+  }
+  14% {
+    background-image: url(../images/peugeot.png);
+  }
+  28% {
+    background-image: url(../images/kia.png);
+  }
+  42% {
+    background-image: url(../images/mercedes.png);
+  }
+  67% {
+    background-image: url(../images/audi.png);
+  }
+  84% {
+    background-image: url(../images/bmw.png);
+  }
+  100% {
+    background-image: url(../images/hyundai.png);
+  }
+}
+@-moz-keyframes imgAnimationfour {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationfour {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationfour {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo5 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationfive 15s infinite alternate;
+  -webkit-animation: imgAnimationfive 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationfive {
+  0% {
+    background-image: url(../images/peugeot.png);
+  }
+  14% {
+    background-image: url(../images/audi.png);
+  }
+  28% {
+    background-image: url(../images/bmw.png);
+  }
+  42% {
+    background-image: url(../images/mercedes.png);
+  }
+  67% {
+    background-image: url(../images/rover.png);
+  }
+  84% {
+    background-image: url(../images/hyundai.png);
+  }
+  100% {
+    background-image: url(../images/kia.png);
+  }
+}
+@-moz-keyframes imgAnimationfive {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationfive {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationfive {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo6 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationsix 15s infinite alternate;
+  -webkit-animation: imgAnimationsix 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationsix {
+  0% {
+    background-image: url(../images/bmw.png);
+  }
+  14% {
+    background-image: url(../images/rover.png);
+  }
+  28% {
+    background-image: url(../images/kia.png);
+  }
+  42% {
+    background-image: url(../images/audi.png);
+  }
+  67% {
+    background-image: url(../images/mercedes.png);
+  }
+  84% {
+    background-image: url(../images/peugeot.png);
+  }
+  100% {
+    background-image: url(../images/hyundai.png);
+  }
+}
+@-moz-keyframes imgAnimationsix {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationsix {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationsix {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.banner-logo7 {
+  background-image: url(../images/audi.png);
+  animation: imgAnimationseven 15s infinite alternate;
+  -webkit-animation: imgAnimationseven 15s infinite alternate;
+  transition-duration: 0s;
+}
+
+@keyframes imgAnimationseven {
+  0% {
+    background-image: url(../images/peugeot.png);
+  }
+  14% {
+    background-image: url(../images/audi.png);
+  }
+  28% {
+    background-image: url(../images/kia.png);
+  }
+  42% {
+    background-image: url(../images/hyundai.png);
+  }
+  67% {
+    background-image: url(../images/bmw.png);
+  }
+  84% {
+    background-image: url(../images/rover.png);
+  }
+  100% {
+    background-image: url(../images/mercedes.png);
+  }
+}
+@-moz-keyframes imgAnimationseven {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-webkit-keyframes imgAnimationseven {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+@-o-keyframes imgAnimationseven {
+  0% {
+    background-image: url(../images/audi.png);
+  }
+  14% {
+    background-image: url(../images/bmw.png);
+  }
+  28% {
+    background-image: url(../images/mercedes.png);
+  }
+  42% {
+    background-image: url(../images/rover.png);
+  }
+  67% {
+    background-image: url(../images/hyundai.png);
+  }
+  84% {
+    background-image: url(../images/kia.png);
+  }
+  100% {
+    background-image: url(../images/peugeot.png);
+  }
+}
+
+.icons {
+  font-size: 23px;
+  margin-top: 37px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600 !important;
+}
+.icons-link {
+  width: 22px;
+  margin-top: 37px;
+  height: 24px;
+}
+.marquee-logos {
+  width: calc(70% - 270px);
+}
+.basket-count {
+  height: 14px;
+  font-size: 9px !important;
+  margin-top: 30px;
+  margin-left: -30px;
+  position: absolute;
+}
+.search-close {
+  left: calc(100vw - 70px);
+  font-size: 20px;
+  top: 28px;
+  /* color: black; */
+  position: relative;
+  /* margin-bottom: -65px; */
+  margin-top: -52px;
+}
+@media screen and (max-width: 768px) {
+  .search-close {
+    left: calc(100vw - 28px) !important;
+  }
+  .banner-logo-img {
+    height: 55px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner-logo-img {
+    height: 45px;
+  }
+}
+.search-input {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 15px;
+  margin-top: -15px;
+  background-color: #f8f6f6;
+}
+
+/*  sidebar  */
+.category-banner {
+  background-color: #1a2225;
+  color: white;
+  min-height: 40px;
+}
+.category-menu-icon {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.category-menu-icon-col {
+  max-width: 20px !important;
+}
+@media screen and (max-width: 578px) {
+  .category-title {
+    font-size: 14px;
+  }
+  .category-menu-icon {
+    font-size: 15px;
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.category-open-menu {
+  position: absolute;
+  top: 20px;
+  color: white !important;
+  cursor: pointer;
+}
+
+.category-text {
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+.sidebar-box {
+  height: 100%;
+  background-color: #fff;
+  position: static !important;
+  z-index: 100;
+  float: left;
+  overflow: auto;
+}
+.sidebar-box::-webkit-scrollbar-track {
+  background-color: transparent;
+  display: none;
+}
+
+.sidebar-box::-webkit-scrollbar {
+  background-color: transparent;
+  display: none;
+}
+
+.sidebar-box::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  display: none;
+}
+/* sidebar end */
+
+/*  content  */
+.content-box {
+  width: calc(100vw - 332px);
+  margin-left: 20px;
+  float: left;
+}
+.carousel-item {
+  height: 220px;
+}
+
+/*  form  */
+.form-box {
+  border: solid 5px #373737;
+}
+.form-title {
+  background-color: #373737;
+  color: white;
+  font-weight: 900;
+}
+.form-text {
+  font-size: x-small;
+  background-color: #e6e6e6;
+}
+input,
+select {
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+option {
+  width: 100%;
+}
+
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #04aa6d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+.step {
+  height: 45px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+}
+.step-point {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: white;
+}
+#nextBtn {
+  background-color: #373737 !important;
+}
+.step.active {
+  background-color: #8a8a8a;
+}
+.step.finish {
+  background-color: #373737;
+  color: white;
+}
+/*  form end  */
+
+@media screen and (max-width: 767px) {
+  .sidebar-box {
+    background-color: #1a2225 !important;
+    color: white !important;
+    width: 0;
+    position: absolute !important;
+    float: none;
+    overflow: unset;
+    height: auto;
+  }
+  .category-text {
+    color: white;
+  }
+  .content-box {
+    width: calc(100vw - 10px);
+    margin-left: 5px;
+  }
+  .slide-box {
+    margin-top: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sidebar-box {
+    width: 250px !important;
+    height: auto;
+  }
+}
+
+/* cards */
+.cards {
+  width: 230px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+.cards:hover {
+  box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+.card-banner {
+  position: absolute;
+}
+.discount {
+  background-color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: white;
+}
+.card-image border-bottom {
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+.card-product-text {
+  width: calc(100% - 25px);
+}
+.like {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 155px;
+  color: #373737;
+}
+@media screen and (max-width: 530px) {
+  .cards {
+    width: 135px;
+  }
+  .like {
+    margin-left: 67px;
+  }
+  .card-image border-bottom {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 852px) and (min-width: 768px) {
+  .cards {
+    width: 185px;
+  }
+  .like {
+    margin-left: 100px;
+  }
+  .card-image border-bottom {
+    height: 200px;
+  }
+}
+.like:hover {
+  color: #feb737;
+}
+.card-institution {
+  font-size: 11px;
+  margin-top: -40px;
+}
+.star {
+  color: orange;
+}
+.card-text {
+  font-size: 10px;
+}
+
+/* cards end */
+
+/* primary keys */
+.keys {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+.keys:hover {
+  background-color: rgb(211, 211, 211);
+}
+/* primary keys end */
+
+/* footer */
+.footer-bg {
+  background-color: #1b1b1c;
+}
+.footer-text {
+  font-size: small;
+  text-align: left !important;
+}
+.footer-bottom {
+  background-color: #000000;
+}
+/* footer end */
+
+/*  modal  */
+.modal-correct {
+  font-size: 60px;
+}
+
+.basket-title {
+  max-width: 80%;
+  font-size: 14px;
+}
+.basket-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.basket-product-count {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.basket-price-box {
+  max-width: 25%;
+}
+.basket-first-price {
+  text-decoration: line-through;
+}
+.basket-modal {
+  position: absolute !important;
+  top: 55px !important;
+  right: 120px !important;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
+.btn-outline-warning:hover {
+  color: white !important;
+}
+.basket-modal-icon::after {
+  content: "\25B2";
+  color: white;
+  position: absolute;
+  right: 160px;
+  top: 66px;
+}
+@media screen and (max-width: 575px) {
+  .basket-modal {
+    top: 73px !important;
+    right: 20px !important;
+  }
+  .basket-modal-icon::after {
+    right: 120px;
+  }
+}
+
+.col-mw {
+  max-width: 260px !important;
+}
+
+/*  live support  */
+.live-support-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+.support-box {
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  height: 450px;
+  width: 300px;
+  max-height: 70vh;
+  z-index: 1000;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+.support-title {
+  background-color: #1a2225;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+.support-message {
+  font-size: 10px;
+}
+.support-input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.support-input-icon1 {
+  position: absolute;
+  bottom: 5px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  cursor: pointer;
+}
+.support-input-icon2 {
+  position: absolute;
+  bottom: 5px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 270px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  cursor: pointer;
+}
+/*  live support end  */
+.car-menu-content {
+  display: none;
+  position: absolute;
+  background-color: #1a2225;
+  color: white;
+  margin-left: 243px;
+  min-width: 600px;
+  max-width: 800px;
+  margin-top: -37px;
+}
+.car-menu:hover ~ .car-menu-content {
+  display: inline-block !important;
+}
+.car-menu-content:hover {
+  display: block;
+}
+@media screen and (max-width: 900px) {
+  .car-menu-content {
+    margin-left: 240px;
+    min-width: 400px;
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .car-menu-content {
+    margin-left: 80px;
+    min-width: 400px;
+    max-width: 500px;
+    border: solid rgb(66, 66, 66) 0.25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .car-menu-content {
+    margin-left: 60px;
+    min-width: 250px;
+    max-width: 350px;
+    border: solid rgb(66, 66, 66) 0.25px;
+  }
+}
+
+/* banner end */
+
+.a-font {
+  font-size: 9px;
+}
