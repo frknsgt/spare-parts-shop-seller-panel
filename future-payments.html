@@ -1,220 +1,203 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Satıcı Kayıt</title>
-    <link href="css/future-payments.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,shrink-to-fit=no"
-    />
-  </head>
 
-  <body class="p-0">
-    <!-- banner -->
-    <div class="banner-box">
-        <div class="row m-0 h-75 pl-0 pl-md-2">
-          <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a>
-          <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
-            <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
-    
-    
-              <div class="row m-0 justify-content-between">
-                <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bannerMenu"
-                    aria-controls="bannerMenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="bannerMenu">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                      <li class="nav-item mr-2 dropdown text-white">
-                        <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          ÜRÜN
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="product">
-                          <a class="dropdown-item" href="dealer-pool.html">Motor</a>
-                          <a class="dropdown-item" href="dealer-pool.html">Yağ</a>
-                          <a class="dropdown-item" href="dealer-pool.html">Antifiriz</a>
-                        </div>
-                      </li>
-                      <li class="nav-item mr-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown" aria-haspopup="true"
-                          aria-expanded="false">
-                          SİPARİŞ
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="order">
-                          <a class="dropdown-item" href="#">Geçmiş Siparişlerim</a>
-                          <a class="dropdown-item" href="#">Teslim Edilenler</a>
-                        </div>
-                      </li>
-                      <li class="nav-item mr-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          ÖDEME VE FATURA
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="paymentAndBill">
-                          <a class="dropdown-item" href="#">Faturalar</a>
-                          <a class="dropdown-item" href="future-payments.html">Ödemeler</a>
-                        </div>
-                      </li>
-                      <li class="nav-item mr-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          PROMOSYONLAR
-                        </a>
-                        <div class="dropdown-menu w-75" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="my-campaigns.html">Kampanyalarım</a>
-                        </div>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="reports.html">RAPOR</a>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">TALEPLERİM</a>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="message.html">MESAJLARIM</a>
-                      </li>
-                      <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">BAYİLER ARASI SOHBET</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-                <span class="text-white pt-1">
-                  <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-comment-dots fa-1x"></i></a>
-                  <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
-                  <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    class="banner-icon d-inline-block mr-2 dropdown-toggle"><i class="fas fa-user fa-1x"></i><span
-                      class="profile-text"> Aykut Yedek Parça</span></a>
-                  <div class="dropdown-menu" aria-labelledby="profile">
-                    <a class="dropdown-item text-center" href="dealer-profile.html">Hesabım</a>
-                  </div>
-                </span>
+<head>
+  <meta charset="utf-8" />
+  <title>Satıcı Kayıt</title>
+  <link href="css/future-payments.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+</head>
+
+<body class="p-0">
+  <!-- banner -->
+  <div class="banner-box">
+    <div class="row m-0 h-75 pl-0 pl-md-2">
+      <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a>
+      <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+        <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+
+
+          <div class="row m-0 justify-content-between">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bannerMenu"
+                aria-controls="bannerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="bannerMenu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item mr-2 dropdown text-white">
+                    <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÜRÜN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="product">
+                      <a class="dropdown-item" href="dealer-pool.html">Motor</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Yağ</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Antifiriz</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      SİPARİŞ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="order">
+                      <a class="dropdown-item" href="#">Geçmiş Siparişlerim</a>
+                      <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÖDEME VE FATURA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="paymentAndBill">
+                      <a class="dropdown-item" href="#">Faturalar</a>
+                      <a class="dropdown-item" href="future-payments.html">Ödemeler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      PROMOSYONLAR
+                    </a>
+                    <div class="dropdown-menu w-75" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="my-campaigns.html">Kampanyalarım</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="reports.html">RAPOR</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">TALEPLERİM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="message.html">MESAJLARIM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">BAYİLER ARASI SOHBET</a>
+                  </li>
+                </ul>
               </div>
-    
-    
-            </div>
+            </nav>
+            <span class="text-white pt-1">
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-comment-dots fa-1x"></i></a>
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
+              <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="banner-icon d-inline-block mr-2 dropdown-toggle"><i class="fas fa-user fa-1x"></i><span
+                  class="profile-text"> Aykut Yedek Parça</span></a>
+              <div class="dropdown-menu" aria-labelledby="profile">
+                <a class="dropdown-item text-center" href="dealer-profile.html">Hesabım</a>
+              </div>
+            </span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- banner end -->
+
+  <!-- content -->
+  <div class="row m-0 w-100">
+    <div class="container">
+      <div class="row m-0 w-100">
+        <h2>Gelecek Ödemeler</h2>
+      </div>
+      <div class="container bg-light p-3 shadow">
+        <div class="row m-0 w-100">
+          <div class="row m-0 mr-5 mt-3 mb-3 bg-warning-soft justify-content-between px-2">
+            <i class="fas fa-info-circle text-warning info-top mr-2"></i>
+            <p class="text-font mt-2">Bu ekrandaki bakiyeler 30 dakikada bir güncellenmektedir. Bu sebeple
+              bakiyeniz,
+              hesap hareketlerinize göre değişiklik gösterebilir.</p>
+          </div>
+        </div>
+        <div class="row m-0 w-100 justify-content-between">
+          <h4 class="font-weight-bold">Bu Haftaki Gelen Hakediş</h4>
+          <p>Son Güncelleme:<span class="font-weight-bold">30.09.2021 22:33:20</span></p>
+        </div>
+        <div class="row m-0 w-100">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">FATURA TİPLERİ</th>
+                  <th colspan="3" scope="col">TUTAR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Kargo Faturası</td>
+                  <td colspan="3" class="text-danger">-85,05 ₺</td>
+                </tr>
+                <tr class="bg-success">
+                  <td class="text-light bg-success">Toplam Haftalık Hakediş</td>
+                  <td class="text-light bg-success">-85,05 ₺</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    <!-- banner end -->
-
-    <!-- content -->
-    <div class="row m-0 w-100">
-        <div class="container">
-            <div class="row m-0 w-100">
-                <h2>Gelecek Ödemeler</h2>
-            </div>
-            <div class="container bg-light">
-                    <div class="row m-0 w-100">
-                        <div class="row w-75 m-0 mr-5 mt-3 mb-3 bg-warning-soft justify-content-between">
-                            <i class="fas fa-info-circle text-warning info-top"></i>
-                            <p class="text-font mt-2">Bu ekrandaki bakiyeler 30 dakikada bir güncellenmektedir. Bu sebeple bakiyeniz, hesap hareketlerinize göre değişiklik gösterebilir.</p>
-                        </div>
-                    </div>
-                <div class="row m-0 w-100 justify-content-between">
-                    <h2 class="font-weight-bold">Bu Haftaki Gelen Hakediş</h2>
-                    <p>Son Güncelleme:<span class="font-weight-bold">30.09.2021 22:33:20</span></p>
-                </div>
-                <div class="row m-0 w-100">
-                    <div class="table-responsive">
-                        <table class="table table-bordered">
-                          <thead class="thead-light">
-                            <tr>
-                              <th scope="col">FATURA TİPLERİ</th>
-                              <th colspan="3" scope="col">TUTAR</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Kargo Faturası</td>
-                              <td colspan="3" class="text-danger">-85,05 ₺</td>
-                            </tr>
-                            <tr class="bg-success">
-                              <td class="text-light bg-success">Toplam Haftalık Hakediş</td>
-                              <td class="text-light bg-success">-85,05 ₺</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row m-0 w-100">
-                    <h2 class="font-weight-bold">Gelecek Hafta Hakediş</h2>
-                </div>
-                <div class="row m-0 w-100">
-                    <div class="table-responsive">
-                        <table class="table table-bordered">
-                          <thead class="thead-light">
-                            <tr>
-                              <th scope="col">HAFTA</th>
-                              <th colspan="3" scope="col">TUTAR</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>02.02.2021</td>
-                              <td colspan="3" class="text">1.430,63 ₺</td>
-                            </tr>
-                            <tr>
-                                <td>02.02.2021</td>
-                                <td colspan="3" class="text">1.430,63 ₺</td>
-                              </tr>
-                              <tr>
-                                <td>02.02.2021</td>
-                                <td colspan="3" class="text">-</td>
-                              </tr>
-                            <tr class="bg-success">
-                              <td class="text-light ">Toplam Gelecek Hakediş</td>
-                              <td class="text-light ">4.267,75 ₺</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                </div>
-            </div>
+      <div class="container bg-light mt-4 p-3 shadow">
+        <div class="row m-0 w-100">
+          <h4 class="font-weight-bold">Gelecek Hafta Hakediş</h4>
         </div>
+        <div class="row m-0 w-100">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">HAFTA</th>
+                  <th colspan="3" scope="col">TUTAR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>02.02.2021</td>
+                  <td colspan="3" class="text">1.430,63 ₺</td>
+                </tr>
+                <tr>
+                  <td>02.02.2021</td>
+                  <td colspan="3" class="text">1.430,63 ₺</td>
+                </tr>
+                <tr>
+                  <td>02.02.2021</td>
+                  <td colspan="3" class="text">-</td>
+                </tr>
+                <tr class="bg-success">
+                  <td class="text-light ">Toplam Gelecek Hakediş</td>
+                  <td class="text-light ">4.267,75 ₺</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- content end -->
+  </div>
+  <!-- content end -->
 
 
-    <!--aplication complated Modal-->
-    <div
-    class="modal"
-    id="applicationComplatedModal"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="applicationComplatedModal"
-    aria-hidden="true"
-  >
-    <div
-      class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-      role="document"
-    >
-      <div class="modal-content">      
-            <div class="row w-100 m-0 justify-content-end">
+  <!--aplication complated Modal-->
+  <div class="modal" id="applicationComplatedModal" tabindex="-1" role="dialog"
+    aria-labelledby="applicationComplatedModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="row w-100 m-0 justify-content-end">
           <button type="button" class="btn text-secondary font-weight-bolder" data-dismiss="modal">
             X
           </button>
@@ -222,28 +205,23 @@
         <div class="row m-0 py-3 px-5 text-center">
           <div class="text-warning w-100"><i class="far fa-thumbs-up fa-5x"></i></div>
           <div class="text-warning h3 mt-3 font-weighht-bolder text-center w-100">Başvurunuz alındı.</div>
-         <p class="text-left">Başvurunuz onaylandığı takdirde bilgilendirme maili size gönderilecektir.</p>
-        </div>
+          <p class="text-left">Başvurunuz onaylandığı takdirde bilgilendirme maili size gönderilecektir.</p>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <!--aplication complated Modal End-->
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
