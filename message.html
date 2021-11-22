@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Satıcı Kayıt</title>
+    <link href="css/message.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+  </head>
+
+  <body class="p-0">
+    <!-- banner -->
+    <div class="banner-box">
+      <div class="row m-0 h-75 pl-0 pl-md-2">
+        <div class="col-12 col-md-2 p-3 banner-logo"></div>
+        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+          <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+            <div class="row m-0 justify-content-between">
+              <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#bannerMenu"
+                  aria-controls="bannerMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bannerMenu">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mr-2 dropdown text-white">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="product"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÜRÜN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="product">
+                        <a class="dropdown-item" href="#">Motor</a>
+                        <a class="dropdown-item" href="#">Yağ</a>
+                        <a class="dropdown-item" href="#">Antifiriz</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="order"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        SİPARİŞ
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="order">
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Siparişlerim</a
+                        >
+                        <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="paymentAndBill"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÖDEME VE FATURA
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="paymentAndBill"
+                      >
+                        <a class="dropdown-item" href="#">Faturalar</a>
+                        <a class="dropdown-item" href="#">Ödemeler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        PROMOSYONLAR
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Promosyonlar</a
+                        >
+                        <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">RAPOR</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <span class="text-white pt-1">
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-comment-dots fa-1x"></i
+                ></a>
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-bell fa-1x"></i
+                ></a>
+                <a
+                  href="#"
+                  id="profile"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="banner-icon d-inline-block mr-2 dropdown-toggle"
+                  ><i class="fas fa-user fa-1x"></i
+                  ><span class="profile-text"> Aykut Yedek Parça</span></a
+                >
+                <div class="dropdown-menu" aria-labelledby="profile">
+                  <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                  <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                  <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!--  sidebar and content  -->
+    <div class="row m-0 px-md-4 mt-md-3">
+      <!--  sidebar   -->
+      <div
+        class="w3-bar-block w3-card w3-animate-left sidebar-box p-0 rounded"
+        id="mySidebar"
+      >
+        <button
+          class="w3-bar-item w3-button w3-large text-right d-block d-md-none"
+          onclick="w3_close()"
+        >
+          &times;
+        </button>
+        <div class="row m-0 px-3 my-3 justify-content-between">
+          <span>
+            <img
+              src="images/message1.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <p class="user-name mb-0 pt-2 font-weight-bolder float-left">
+              Aras Bulut
+            </p>
+          </span>
+          <a class="cursor-pointer pt-2"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+        <p class="font-weight-bolder message-font px-3 mt-4">
+          Sohbet
+          <span class="badge badge-warning rounded-circle p-1 text-white"
+            >14</span
+          >
+        </p>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message2.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Yedek Parçacı Dünyası
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Otomobil parça talebininiz başarıyla alınmıştır.
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message3.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Mehmet Ozan Dolunay
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message4.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Öner Erkan
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message5.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Çağlar Ertuğrul
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message6.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Kıvanç Tatlıtuğ
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message7.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Cansel Elçin
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message8.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Barış Arduç
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message9.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Ahmet Rıfat Şungar
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message10.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Engin Öztürk
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message2.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Yedek Parçacı Dünyası
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message10.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Engin Öztürk
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+        <div class="row m-0 px-3 mt-3 justify-content-between">
+          <span>
+            <img
+              src="images/message2.png"
+              width="40px"
+              height="40px"
+              class="rounded-circle bg-white float-left"
+            />
+            <span class="float-left">
+              <p class="user-name mb-0 p-0 font-weight-bolder message-font">
+                Yedek Parçacı Dünyası
+              </p>
+              <p class="user-name p-0 text-muted mb-0 message-small">
+                Merhaba, elinizdeki modelin kış lastiği var mı?
+              </p>
+            </span>
+          </span>
+          <span
+            class="
+              message-font
+              mt-2
+              badge badge-warning
+              py-1
+              px-2
+              text-white
+              rounded-circle
+              d-inline-block
+              message-count
+            "
+            >1</span
+          >
+        </div>
+      </div>
+      <a
+        id="openNav"
+        class="w3-xlarge category-open-menu d-block d-md-none p-2"
+        onclick="w3_open()"
+      >
+        &#9776;
+      </a>
+      <!--  sidebar end  -->
+
+      <!--  content  -->
+      <div class="content-box px-3 pt-3 mb-5">
+        <div class="card messages-box p-4">
+          <div class="row m-0">
+            <input
+              type="text"
+              class="mw-100 py-1 pr-3 pl-4 border-0 bg-light"
+              placeholder="Ara"
+            />
+            <span class="search-icon"
+              ><i class="fas fa-search text-muted"></i
+            ></span>
+          </div>
+          <div class="row m-0 mt-3 justify-content-between">
+            <span class="mb-2">
+              <span class="user-text mr-2">Yedek Parçacı Dünyası</span
+              ><span class="text-muted mr-1 message-font">online</span
+              ><span class="text-success online-icon pt-1"
+                ><i class="fas fa-circle"></i
+              ></span>
+            </span>
+            <span>
+              <a
+                class="px-2 py-1 text-light btn btn-warning message-font mr-2"
+                data-target="#complainModal"
+                data-toggle="modal"
+                ><i class="fas fa-exclamation-triangle mr-1"></i>Şikayet Et</a
+              >
+              <a
+                class="px-2 py-1 text-light btn btn-dark message-font mr-2"
+                data-toggle="modal"
+                data-target="#blockModal"
+                ><i class="fas fa-times mr-1"></i>Engelle</a
+              >
+              <a
+                class="px-2 py-1 btn btn-outline-dark message-font mr-2"
+                data-toggle="modal"
+                data-target="#messageDeleteModal"
+                ><i class="fas fa-trash-alt mr-1"></i
+              ></a>
+            </span>
+          </div>
+          <div
+            class="
+              row
+              m-0
+              mt-3
+              p-3
+              justify-content-between
+              product-box
+              bg-light
+            "
+          >
+            <span class="w-100">
+              <img
+                src="images/content3.png"
+                width="60px"
+                height="70px"
+                class="shadow float-left mr-2"
+              />
+              <span class="float-left product-text">
+                <p class="m-0 text-truncate user-text">Otomobil Parça Talebi</p>
+                <p class="m-0 text-truncate user-text mt-2">
+                  Clio,JOY 1.0 Sce 65 bg,2021,manuel,...
+                </p>
+                <p class="m-0 text-truncate message-font mt-2">Ankara</p>
+              </span>
+            </span>
+            <span class="message-font mt-3 text-muted pt-2">11.11.2021</span>
+          </div>
+          <div class="message-content">
+            <div class="row m-0 mt-3">
+              <div class="col-12 text-right product-file">
+                <img
+                  src="images/message-content.png"
+                  class="shadow seller-message-box mb-2"
+                />
+              </div>
+              <span class="ml-auto text-right product-message">
+                <span
+                  class="
+                    message-font
+                    text-left
+                    seller-message-box
+                    bg-warning
+                    text-white
+                    p-3
+                    d-inline-block
+                  "
+                  >Bu araçla ilgili bir sorum olacaktı?
+                  <div class="row m-0 justify-content-end">
+                    <i class="fas fa-check see-message"></i>
+                    <i class="fas fa-check see-message see-message-two"></i>
+                  </div> </span
+                ><br />
+                <span class="message-date text-muted ml-2"
+                  >12.12.2021 08:55</span
+                >
+              </span>
+            </div>
+            <div class="row m-0 mt-3">
+              <img
+                src="images/single-logo.png"
+                width="60px"
+                height="60px"
+                class="float-left mr-3 seller-photo"
+              />
+              <span class="message-mw mt-2">
+                <span
+                  class="
+                    message-font
+                    seller-message-box
+                    text-white
+                    px-3
+                    py-2
+                    d-inline-block
+                  "
+                  >Tabi buyrun hangi konuda hangi model?</span
+                ><br />
+                <span class="message-date text-muted ml-2"
+                  >12.12.2021 08:55</span
+                >
+              </span>
+            </div>
+          </div>
+          <div class="row m-0 send-message">
+            <a class="cursor-pointer"
+              ><i class="far fa-image h4 m-0 mr-3"></i
+            ></a>
+            <a class="cursor-pointer"
+              ><i class="far fa-smile h4 m-0 pr-3 border-right mr-3"></i
+            ></a>
+            <input
+              type="text"
+              class="border-0 message-input px-3 py-1"
+              placeholder="Bir mesaj yazın"
+            />
+            <a class="cursor-pointer send-icon-box"
+              ><i class="fas fa-paper-plane h4 m-0 send-icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!--  content end  -->
+    </div>
+    <!--  sidebar and content end  -->
+
+    <!--Complain Modal-->
+    <div
+      class="modal"
+      id="complainModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="complainModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 mb-3 justify-content-center">
+              <h6 class="mb-3">Şikayet etme nedeninizi seçin</h6>
+            </div>
+            <div class="container">
+              <div class="row m-0">
+                <input type="radio" class="btn btn-warning mt-1" />
+                <p class="ml-2">Reklam yapıyor.</p>
+              </div>
+              <div class="row m-0">
+                <input type="radio" class="btn btn-warning mt-1" />
+                <p class="ml-2">Gereksiz/ilgisiz mesaj atıyor.</p>
+              </div>
+              <div class="row m-0">
+                <input type="radio" class="btn btn-warning mt-1" />
+                <p class="ml-2">Hakaret içerikli mesaj atıyor.</p>
+              </div>
+              <div class="row m-0">
+                <input type="radio" class="btn btn-warning mt-1" />
+                <p class="ml-2">Şüphelendim, kötü niyetli olabilir.</p>
+              </div>
+              <div class="row m-0">
+                <div class="col-6">
+                  <button
+                    class="
+                      btn btn-outline-warning
+                      text-warning
+                      rounded
+                      w-75
+                      mb-3
+                    "
+                    data-dismiss="modal"
+                  >
+                    Vazgeç
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button
+                    class="btn btn-warning text-light rounded w-75 mb-3"
+                    data-toggle="modal"
+                    data-target="#complainAcceptedModal"
+                    data-dismiss="modal"
+                  >
+                    Şikayet Et
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Complain Modal End-->
+
+    <!--Complain Accepted Modal-->
+    <div
+      class="modal"
+      id="complainAcceptedModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="complainAcceptedModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 mb-3 justify-content-center"></div>
+
+            <p class="h5">
+              Şikayet başvurunuzu aldık. <br />
+              Kullanıcının size mesaj atmasını <br />
+              istemiyorsanız engelleyebilirsiniz.
+            </p>
+            <div class="row m-0">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-warning text-warning rounded w-75 mb-3"
+                  data-dismiss="modal"
+                >
+                  Vazgeç
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-warning text-light rounded w-75 mb-3"
+                  data-dismiss="modal"
+                >
+                  Engelle
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Complain Accepted Modal End-->
+
+    <!--Block Modal-->
+    <div
+      class="modal"
+      id="blockModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="blockModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 mb-3 justify-content-center">
+              <h6 class="mb-3">"Öner Erkan"ı engellemek ister misiniz?</h6>
+            </div>
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-6">
+                  <button
+                    class="
+                      btn btn-outline-warning
+                      text-warning
+                      rounded
+                      w-75
+                      mb-3
+                    "
+                    data-dismiss="modal"
+                  >
+                    Vazgeç
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button
+                    class="btn btn-warning text-light rounded w-75 mb-3"
+                    data-target="#blockAcceptedModal"
+                    data-toggle="modal"
+                    data-dismiss="modal"
+                  >
+                    Engelle
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Block Modal End-->
+
+    <!--Block Accepted Modal-->
+    <div
+      class="modal"
+      id="blockAcceptedModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="blockAcceptedModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 px-3 mb-3 justify-content-center">
+              <i class="fas fa-exclamation-triangle fa-3x"></i>
+
+              <h6 class="mb-3 w-100 border-bottom pb-3">
+                Öner Erkan engellenmiştir.
+              </h6>
+            </div>
+            <div class="col-12">
+              <button
+                class="btn btn-warning text-light rounded w-75 mb-3"
+                data-dismiss="modal"
+              >
+                Tamam
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Block Accepted Modal End-->
+
+    <!--Message Delete Modal-->
+    <div
+      class="modal"
+      id="messageDeleteModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="messageDeleteModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 px-3 mb-3 justify-content-center">
+              <h6 class="mb-3 w-100 pb-3">
+                Bu mesajlaşmadaki tüm mesajlar silinecektir. <br />Onaylıyor
+                musunuz?
+              </h6>
+            </div>
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-6">
+                  <button
+                    class="btn btn-outline-warning text-warning w-75 mb-3"
+                    data-dismiss="modal"
+                  >
+                    Hayır
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button
+                    class="btn btn-warning text-light rounded w-75 mb-3"
+                    data-target="#messageDeleteAcceptedModal"
+                    data-toggle="modal"
+                    data-dismiss="modal"
+                  >
+                    Evet
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Message Delete Modal End-->
+
+    <!--Message Delete Accepted Modal-->
+    <div
+      class="modal"
+      id="messageDeleteAcceptedModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="messageDeleteAcceptedModal"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="row m-0 justify-content-end">
+              <button
+                type="button"
+                class="btn text-warning"
+                data-dismiss="modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="row m-0 px-3 mb-3 justify-content-center">
+              <i class="fas fa-check-circle text-success fa-3x"></i>
+
+              <h6 class="mb-3 w-100 text-success border-bottom pb-3">
+                Mesajınız silinmiştir.
+              </h6>
+            </div>
+            <div class="col-12">
+              <button
+                class="btn btn-warning text-light rounded w-75 mb-3"
+                data-dismiss="modal"
+              >
+                Tamam
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Message Delete Accepted Modal End-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("openNav").style.display = "none";
+        document.getElementById("categoryMenu").classList.add("show");
+      }
+      function w3_close() {
+        document.getElementById("mySidebar").style.width = "0px";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+    </script>
+  </body>
+</html>
