@@ -431,3 +431,30 @@ a:hover {
   margin-left: 10px;
   padding-top: 5px;
 }
+.dealers-box {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.dealer-box {
+  float: left;
+}
+.dealers-box::-webkit-scrollbar-track {
+  background-color: rgb(179, 179, 179);
+  height: 8px;
+}
+
+.dealers-box::-webkit-scrollbar {
+  background-color: rgb(207, 207, 207);
+  height: 8px;
+}
+
+.dealers-box::-webkit-scrollbar-thumb {
+  background-color: rgb(112, 112, 112);
+  height: 8px;
+}
+.dealer-text {
+  font-size: 10px;
+}
