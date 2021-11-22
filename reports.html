@@ -117,7 +117,7 @@
 
                     <select
                           type="text"
-                          class="p-2 w-25 border"
+                          class="p-2 border px-3"
                           placeholder="ÜRÜN BAZLI"
                         >
                           <option>Ürün Bazlı</option>
@@ -126,12 +126,12 @@
                           <option>Mercedes</option>
                         </select>
    
-                    <button class="btn btn-warning text-light rounded ml-5 w-25">Listele</button>
+                    <button class="btn btn-warning text-light rounded ml-4 px-5">Listele</button>
 
             </div>
             <div class="container bg-light">
                 <div class="row m-0 w-100">
-                    <div class="col-3">
+                    <div class="col">
                         <p class="">Marka</p>
                         <select
                           type="text"
@@ -144,15 +144,15 @@
                           <option>Mercedes</option>
                         </select>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <p>Başlangıç Tarihi</p>
                         <input class="p-1" type="datetime-local">
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <p>Bitiş Tarihi</p>
                         <input class="p-1" type="datetime-local">
                     </div>
-                    <div class="col-3 mt-3">
+                    <div class="col mt-3">
                         <button class="btn btn-warning text-light rounded mt-4">ARA</button>
                         <button class="btn btn-secondary text-light rounded mt-4">X</button>
                     </div>
@@ -165,8 +165,9 @@
                         <button class="btn btn-success text-light rounded">EXCEL İNDİR</button>
                     </div>
                 </div>
-                <div class="row m-0 w-100">
-                    <table class="table table-bordered">
+                <div class="row m-0 w-100 px-3">
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
                         <thead class="thead-light">
                           <tr>
                             <th scope="col">Marka</th>
@@ -196,6 +197,7 @@
                           </tr>
                         </tbody>
                       </table>
+                    </div>
                 </div>
             </div>
         </div>

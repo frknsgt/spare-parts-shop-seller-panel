@@ -61,12 +61,9 @@ body {
 }
 /* banner end */
 
+.btn-text:focus,
 .btn-text:active {
-  color: black;
-}
-
-.btn-text:focus {
-  color: yellow;
+  color: #ffc107 !important;
 }
 
 .text-font {
