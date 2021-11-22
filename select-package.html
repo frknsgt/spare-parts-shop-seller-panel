@@ -1,208 +1,359 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Satıcı Kayıt</title>
     <link href="css/select-package.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
-</head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+  </head>
 
-<body class="p-0">
+  <body class="p-0">
     <!-- banner -->
     <div class="banner-box">
-        <div class="row m-0 h-75 pl-0 pl-md-2">
-            <div class="col-12 col-md-2 p-3 banner-logo"></div>
-            <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
-                <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
-
-
-                    <div class="row m-0 justify-content-between">
-                        <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#bannerMenu" aria-controls="bannerMenu" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="bannerMenu">
-                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                    <li class="nav-item mr-2 dropdown text-white">
-                                        <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            ÜRÜN
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="product">
-                                            <a class="dropdown-item" href="#">Motor</a>
-                                            <a class="dropdown-item" href="#">Yağ</a>
-                                            <a class="dropdown-item" href="#">Antifiriz</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item mr-2 dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            SİPARİŞ
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="order">
-                                            <a class="dropdown-item" href="#">Geçmiş Siparişlerim</a>
-                                            <a class="dropdown-item" href="#">Teslim Edilenler</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item mr-2 dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            ÖDEME VE FATURA
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="paymentAndBill">
-                                            <a class="dropdown-item" href="#">Faturalar</a>
-                                            <a class="dropdown-item" href="#">Ödemeler</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item mr-2 dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            PROMOSYONLAR
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="#">Yeni Promosyon</a>
-                                            <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
-                                            <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item mr-2">
-                                        <a class="nav-link" href="#">RAPOR</a>
-                                    </li>
-                                    <li class="nav-item mr-2">
-                                        <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
-                                    </li>
-                                    <li class="nav-item mr-2">
-                                        <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <span class="text-white pt-1">
-                            <a href="" class="d-inline-block mr-2 banner-icon"><i
-                                    class="fas fa-comment-dots fa-1x"></i></a>
-                            <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
-                            <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                class="banner-icon d-inline-block mr-2 dropdown-toggle"><i
-                                    class="fas fa-user fa-1x"></i><span class="profile-text"> Aykut Yedek
-                                    Parça</span></a>
-                            <div class="dropdown-menu" aria-labelledby="profile">
-                                <a class="dropdown-item" href="#">Yeni Promosyon</a>
-                                <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
-                                <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
-                            </div>
-                        </span>
-                    </div>
-
-
+      <div class="row m-0 h-75 pl-0 pl-md-2">
+        <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a></a>
+        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+          <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+            <div class="row m-0 justify-content-between">
+              <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#bannerMenu"
+                  aria-controls="bannerMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bannerMenu">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mr-2 dropdown text-white">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="product"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÜRÜN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="product">
+                        <a class="dropdown-item" href="#">Motor</a>
+                        <a class="dropdown-item" href="#">Yağ</a>
+                        <a class="dropdown-item" href="#">Antifiriz</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="order"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        SİPARİŞ
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="order">
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Siparişlerim</a
+                        >
+                        <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="paymentAndBill"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ÖDEME VE FATURA
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="paymentAndBill"
+                      >
+                        <a class="dropdown-item" href="#">Faturalar</a>
+                        <a class="dropdown-item" href="#">Ödemeler</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        PROMOSYONLAR
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                        <a class="dropdown-item" href="#"
+                          >Geçmiş Promosyonlar</a
+                        >
+                        <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">RAPOR</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                    </li>
+                  </ul>
                 </div>
+              </nav>
+              <span class="text-white pt-1">
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-comment-dots fa-1x"></i
+                ></a>
+                <a href="" class="d-inline-block mr-2 banner-icon"
+                  ><i class="fas fa-bell fa-1x"></i
+                ></a>
+                <a
+                  href="#"
+                  id="profile"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="banner-icon d-inline-block mr-2 dropdown-toggle"
+                  ><i class="fas fa-user fa-1x"></i
+                  ><span class="profile-text"> Aykut Yedek Parça</span></a
+                >
+                <div class="dropdown-menu" aria-labelledby="profile">
+                  <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                  <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                  <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                </div>
+              </span>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- banner end -->
 
     <!-- content -->
     <div class="container mt-5">
-        <h1 class="text-warning text-center font-weight-bold">Paket Seç</h1>
-        <div class="row m-0 bg-white rounded-lg p-5 justify-content-between mb-3 shadow">
-            <div class="package-box shadow px-4 py-3 text-center mx-auto mb-3" tabindex="1">
-                <h5 class="text-warning text-center font-weight-bold">3 Aylık Üyelik Paketi</h5>
-                <hr>
-                <div class="package-text-box rounded-lg text-left">
-                    <p class="m-0">Web Alanı / Database Alanı</p>
-                    <p class="m-0">E-Posta</p>
-                    <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
-                    <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
-                    <p class="m-0">Teknik Destek</p>
-                    <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
-                </div>
-                <h3 class="text-warning text-center font-weight-bold">190 TL</h3>
-                <a href="payment-package.html" class="btn btn-warning py-2 px-3 h4 m-0 text-white font-weight-bolder mx-auto rounded-lg">SATIN AL</a>
-            </div>
-            <div class="package-box shadow px-4 py-3 text-center mx-auto mb-3" tabindex="1">
-                <h5 class="text-warning text-center font-weight-bold">6 Aylık Üyelik Paketi</h5>
-                <hr>
-                <div class="package-text-box rounded-lg text-left">
-                    <p class="m-0">Web Alanı / Database Alanı</p>
-                    <p class="m-0">E-Posta</p>
-                    <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
-                    <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
-                    <p class="m-0">Teknik Destek</p>
-                    <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
-                    <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
-                    <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
-                    <p class="m-0">Toplu Mail Gönderimi</p>
-                </div>
-                <h3 class="text-warning text-center font-weight-bold">290 TL</h3>
-                <a href="payment-package.html" class="btn btn-warning py-2 px-3 h4 m-0 text-white font-weight-bolder mx-auto rounded-lg">SATIN AL</a>
-            </div>
-            <div class="package-box shadow px-4 py-3 text-center mx-auto mb-3" tabindex="1">
-                <h5 class="text-warning text-center font-weight-bold">6 Aylık Üyelik Paketi</h5>
-                <hr>
-                <div class="package-text-box rounded-lg text-left">
-                    <p class="m-0">Web Alanı / Database Alanı</p>
-                    <p class="m-0">E-Posta</p>
-                    <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
-                    <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
-                    <p class="m-0">Teknik Destek</p>
-                    <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
-                    <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
-                    <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
-                    <p class="m-0">Toplu Mail Gönderimi</p>
-                    <p class="m-0">Detaylı Kargo Yönetimi</p>
-                    <p class="m-0">İstatistik ve Raporlama</p>
-                    <p class="m-0">Sosyal Medya Pazarlama</p>
-                    <p class="m-0">RSS Desteği (Son 50 Ürün)</p>
-                </div>
-                <h3 class="text-warning text-center font-weight-bold">390 TL</h3>
-                <a href="payment-package.html" class="btn btn-warning py-2 px-3 h4 m-0 text-white font-weight-bolder mx-auto rounded-lg">SATIN AL</a>
-            </div>
-            <div class="package-box shadow px-4 py-3 text-center mx-auto mb-3" tabindex="1">
-                <h5 class="text-warning text-center font-weight-bold">6 Aylık Üyelik Paketi</h5>
-                <hr>
-                <div class="package-text-box rounded-lg text-left">
-                    <p class="m-0">Web Alanı / Database Alanı</p>
-                    <p class="m-0">E-Posta</p>
-                    <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
-                    <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
-                    <p class="m-0">Teknik Destek</p>
-                    <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
-                    <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
-                    <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
-                    <p class="m-0">Toplu Mail Gönderimi</p>
-                    <p class="m-0">Detaylı Kargo Yönetimi</p>
-                    <p class="m-0">İstatistik ve Raporlama</p>
-                    <p class="m-0">Sosyal Medya Pazarlama</p>
-                    <p class="m-0">RSS Desteği (Son 50 Ürün)</p>
-                    <p class="m-0">Slide Show Yönetimi</p>
-                    <p class="m-0">Yazılım güncelleme</p>
-                </div>
-                <h3 class="text-warning text-center font-weight-bold">490 TL</h3>
-                <a href="payment-package.html" class="btn btn-warning py-2 px-3 h4 m-0 text-white font-weight-bolder mx-auto rounded-lg">SATIN AL</a>
-            </div>
-            <div class="col-12 text-center mt-3">
-                <a href="payment-package.html" class="btn btn-warning h4 mb-0 text-white font-weight-bold">DEVAM ET</a>
-            </div>
+      <h1 class="text-warning text-center font-weight-bold">Paket Seç</h1>
+      <div
+        class="
+          row
+          m-0
+          bg-white
+          rounded-lg
+          p-5
+          justify-content-between
+          mb-3
+          shadow
+        "
+      >
+        <div
+          class="package-box shadow px-4 py-3 text-center mx-auto mb-3"
+          tabindex="1"
+        >
+          <h5 class="text-warning text-center font-weight-bold">
+            3 Aylık Üyelik Paketi
+          </h5>
+          <hr />
+          <div class="package-text-box rounded-lg text-left">
+            <p class="m-0">Web Alanı / Database Alanı</p>
+            <p class="m-0">E-Posta</p>
+            <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
+            <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
+            <p class="m-0">Teknik Destek</p>
+            <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
+          </div>
+          <h3 class="text-warning text-center font-weight-bold">190 TL</h3>
+          <a
+            href="payment-package.html"
+            class="
+              btn btn-warning
+              py-2
+              px-3
+              h4
+              m-0
+              text-white
+              font-weight-bolder
+              mx-auto
+              rounded-lg
+            "
+            >SATIN AL</a
+          >
         </div>
+        <div
+          class="package-box shadow px-4 py-3 text-center mx-auto mb-3"
+          tabindex="1"
+        >
+          <h5 class="text-warning text-center font-weight-bold">
+            6 Aylık Üyelik Paketi
+          </h5>
+          <hr />
+          <div class="package-text-box rounded-lg text-left">
+            <p class="m-0">Web Alanı / Database Alanı</p>
+            <p class="m-0">E-Posta</p>
+            <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
+            <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
+            <p class="m-0">Teknik Destek</p>
+            <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
+            <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
+            <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
+            <p class="m-0">Toplu Mail Gönderimi</p>
+          </div>
+          <h3 class="text-warning text-center font-weight-bold">290 TL</h3>
+          <a
+            href="payment-package.html"
+            class="
+              btn btn-warning
+              py-2
+              px-3
+              h4
+              m-0
+              text-white
+              font-weight-bolder
+              mx-auto
+              rounded-lg
+            "
+            >SATIN AL</a
+          >
+        </div>
+        <div
+          class="package-box shadow px-4 py-3 text-center mx-auto mb-3"
+          tabindex="1"
+        >
+          <h5 class="text-warning text-center font-weight-bold">
+            6 Aylık Üyelik Paketi
+          </h5>
+          <hr />
+          <div class="package-text-box rounded-lg text-left">
+            <p class="m-0">Web Alanı / Database Alanı</p>
+            <p class="m-0">E-Posta</p>
+            <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
+            <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
+            <p class="m-0">Teknik Destek</p>
+            <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
+            <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
+            <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
+            <p class="m-0">Toplu Mail Gönderimi</p>
+            <p class="m-0">Detaylı Kargo Yönetimi</p>
+            <p class="m-0">İstatistik ve Raporlama</p>
+            <p class="m-0">Sosyal Medya Pazarlama</p>
+            <p class="m-0">RSS Desteği (Son 50 Ürün)</p>
+          </div>
+          <h3 class="text-warning text-center font-weight-bold">390 TL</h3>
+          <a
+            href="payment-package.html"
+            class="
+              btn btn-warning
+              py-2
+              px-3
+              h4
+              m-0
+              text-white
+              font-weight-bolder
+              mx-auto
+              rounded-lg
+            "
+            >SATIN AL</a
+          >
+        </div>
+        <div
+          class="package-box shadow px-4 py-3 text-center mx-auto mb-3"
+          tabindex="1"
+        >
+          <h5 class="text-warning text-center font-weight-bold">
+            6 Aylık Üyelik Paketi
+          </h5>
+          <hr />
+          <div class="package-text-box rounded-lg text-left">
+            <p class="m-0">Web Alanı / Database Alanı</p>
+            <p class="m-0">E-Posta</p>
+            <p class="m-0">Yıllık Trafik / Sunucu Kullanımı</p>
+            <p class="m-0">Ürün / Kategori / Marka Yönetimi</p>
+            <p class="m-0">Teknik Destek</p>
+            <p class="m-0">Hazır E-ticaret Tema Tasarımları</p>
+            <p class="m-0">Arama Motoru (SEO) Optimizasyonu</p>
+            <p class="m-0">Havale / Kapıda Ödeme Sistemi</p>
+            <p class="m-0">Toplu Mail Gönderimi</p>
+            <p class="m-0">Detaylı Kargo Yönetimi</p>
+            <p class="m-0">İstatistik ve Raporlama</p>
+            <p class="m-0">Sosyal Medya Pazarlama</p>
+            <p class="m-0">RSS Desteği (Son 50 Ürün)</p>
+            <p class="m-0">Slide Show Yönetimi</p>
+            <p class="m-0">Yazılım güncelleme</p>
+          </div>
+          <h3 class="text-warning text-center font-weight-bold">490 TL</h3>
+          <a
+            href="payment-package.html"
+            class="
+              btn btn-warning
+              py-2
+              px-3
+              h4
+              m-0
+              text-white
+              font-weight-bolder
+              mx-auto
+              rounded-lg
+            "
+            >SATIN AL</a
+          >
+        </div>
+        <div class="col-12 text-center mt-3">
+          <a
+            href="payment-package.html"
+            class="btn btn-warning h4 mb-0 text-white font-weight-bold"
+            >DEVAM ET</a
+          >
+        </div>
+      </div>
     </div>
     <!-- content end -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
