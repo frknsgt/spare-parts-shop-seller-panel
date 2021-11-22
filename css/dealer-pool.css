@@ -887,9 +887,6 @@ body {
   cursor: pointer;
 }
 .category-open-menu {
-  position: absolute;
-  top: 20px;
-  color: white !important;
   cursor: pointer;
 }
 
@@ -1272,6 +1269,7 @@ button:hover {
   min-width: 600px;
   max-width: 800px;
   margin-top: -37px;
+  z-index: 10;
 }
 .car-menu:hover ~ .car-menu-content {
   display: inline-block !important;
