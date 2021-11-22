@@ -34,8 +34,20 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white !important;
-  font-weight: 500;
-  font-size: 11px;
+  font-weight: 700;
+  font-size: 8px;
+}
+@media screen and (max-width: 1385px) and (min-width: 1200px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 7px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 10px;
+    font-weight: 300;
+  }
 }
 .navbar-toogler {
   outline: none !important;

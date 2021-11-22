@@ -1,292 +1,192 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Yeni Şifre</title>
-    <link href="css/create-seller.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,shrink-to-fit=no"
-    />
-  </head>
 
-  <body class="p-0">
-    <!-- banner -->
-    <div class="banner-box">
-      <div class="row m-0 h-75 pl-0 pl-md-2">
-        <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a>
-        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
-          <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
-            <div class="row m-0 justify-content-between">
-              <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#bannerMenu"
-                  aria-controls="bannerMenu"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="bannerMenu">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item mr-2 dropdown text-white">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="product"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        ÜRÜN
-                      </a>
-                      <div class="dropdown-menu w-75" aria-labelledby="product">
-                        <a class="dropdown-item text-center" href="#">Motor</a>
-                        <a class="dropdown-item text-center" href="#">Yağ</a>
-                        <a class="dropdown-item text-center" href="#"
-                          >Antifiriz</a
-                        >
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="order"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        SİPARİŞ
-                      </a>
-                      <div class="dropdown-menu w-75" aria-labelledby="order">
-                        <a class="dropdown-item text-center" href="#"
-                          >Geçmiş Siparişlerim</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Teslim Edilenler</a
-                        >
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="paymentAndBill"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        ÖDEME VE FATURA
-                      </a>
-                      <div
-                        class="dropdown-menu w-75"
-                        aria-labelledby="paymentAndBill"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >Faturalar</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Ödemeler</a
-                        >
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdownMenuLink"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        PROMOSYONLAR
-                      </a>
-                      <div
-                        class="dropdown-menu w-75"
-                        aria-labelledby="navbarDropdownMenuLink"
-                      >
-                        <a class="dropdown-item text-center" href="#"
-                          >Yeni Promosyon</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Geçmiş Promosyonlar</a
-                        >
-                        <a class="dropdown-item text-center" href="#"
-                          >Aktif Promosyonlar</a
-                        >
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">RAPOR</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              <span class="text-white pt-1">
-                <a href="" class="d-inline-block mr-2 banner-icon"
-                  ><i class="fas fa-comment-dots fa-1x"></i
-                ></a>
-                <a href="" class="d-inline-block mr-2 banner-icon"
-                  ><i class="fas fa-bell fa-1x"></i
-                ></a>
-                <a
-                  href="#"
-                  id="profile"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  class="banner-icon d-inline-block mr-2 dropdown-toggle"
-                  ><i class="fas fa-user fa-1x"></i
-                  ><span class="profile-text"> Aykut Yedek Parça</span></a
-                >
-                <div class="dropdown-menu w-75" aria-labelledby="profile">
-                  <a class="dropdown-item text-center" href="#"
-                    >Yeni Promosyon</a
-                  >
-                  <a class="dropdown-item text-center" href="#"
-                    >Geçmiş Promosyonlar</a
-                  >
-                  <a class="dropdown-item text-center" href="#"
-                    >Aktif Promosyonlar</a
-                  >
-                </div>
-              </span>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Yeni Şifre</title>
+  <link href="css/create-seller.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+</head>
+
+<body class="p-0">
+  <!-- banner -->
+  <div class="banner-box">
+    <div class="row m-0 h-75 pl-0 pl-md-2">
+      <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a>
+      <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+        <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+          <div class="row m-0 justify-content-between">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bannerMenu"
+                aria-controls="bannerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="bannerMenu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item mr-2 dropdown text-white">
+                    <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÜRÜN
+                    </a>
+                    <div class="dropdown-menu w-75" aria-labelledby="product">
+                      <a class="dropdown-item" href="dealer-pool.html">Motor</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Yağ</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Antifiriz</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      SİPARİŞ
+                    </a>
+                    <div class="dropdown-menu w-75" aria-labelledby="order">
+                      <a class="dropdown-item text-center" href="#">Geçmiş Siparişlerim</a>
+                      <a class="dropdown-item text-center" href="#">Teslim Edilenler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÖDEME VE FATURA
+                    </a>
+                    <div class="dropdown-menu w-75" aria-labelledby="paymentAndBill">
+                      <a class="dropdown-item text-center" href="#">Faturalar</a>
+                      <a class="dropdown-item text-center" href="#">Ödemeler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      PROMOSYONLAR
+                    </a>
+                    <div class="dropdown-menu w-75" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item text-center" href="#">Yeni Promosyon</a>
+                      <a class="dropdown-item text-center" href="#">Geçmiş Promosyonlar</a>
+                      <a class="dropdown-item text-center" href="#">Aktif Promosyonlar</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">RAPOR</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">TALEPLERİM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">MESAJLARIM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">BAYİLER ARASI SOHBET</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <span class="text-white pt-1">
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-comment-dots fa-1x"></i></a>
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
+              <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="banner-icon d-inline-block mr-2 dropdown-toggle"><i class="fas fa-user fa-1x"></i><span
+                  class="profile-text"> Aykut Yedek Parça</span></a>
+              <div class="dropdown-menu w-75" aria-labelledby="profile">
+                <a class="dropdown-item text-center" href="dealer-pool.html">Hesabım</a>
+              </div>
+            </span>
           </div>
         </div>
       </div>
     </div>
-    <!-- banner end -->
+  </div>
+  <!-- banner end -->
 
-    <!-- content -->
-    <div class="row m-0 justify-content-center">
-      <h1 class="text-warning mt-5 text-center w-100">
-        Satıcı Başvurunu Tamamla
-      </h1>
-      <div
-        class="container create-seller-box shadow d-inline-block bg-white mt-5"
-      >
-        <form id="msform" class="text-center">
-          <!-- progressbar -->
-          <ul id="progressbar">
-            <li class="active">BİLGİ GİRİŞİ</li>
-            <li>BELGE GİRİŞİ</li>
-            <li>BELGE KONTROLÜ</li>
-            <li>BELGE ONAYI</li>
+  <!-- content -->
+  <div class="row m-0 justify-content-center">
+    <h1 class="text-warning mt-5 text-center w-100">
+      Satıcı Başvurunu Tamamla
+    </h1>
+    <div class="container create-seller-box shadow d-inline-block bg-white mt-5">
+      <form id="msform" class="text-center">
+        <!-- progressbar -->
+        <ul id="progressbar">
+          <li class="active">BİLGİ GİRİŞİ</li>
+          <li>BELGE GİRİŞİ</li>
+          <li>BELGE KONTROLÜ</li>
+          <li>BELGE ONAYI</li>
+        </ul>
+        <!-- fieldsets -->
+        <fieldset>
+          <ul id="sendInformation">
+            <li class="active text-decoration">Firma Bilgileri</li>
+            <li>Ödeme Bilgileri</li>
+            <li>Satış & Operasyon Bilgileri</li>
+            <li>Adres & İletişim Bilgileri</li>
+            <li>Bilgilerin Onayı</li>
           </ul>
-          <!-- fieldsets -->
-          <fieldset>
-            <ul id="sendInformation">
-              <li class="active text-decoration">Firma Bilgileri</li>
-              <li>Ödeme Bilgileri</li>
-              <li>Satış & Operasyon Bilgileri</li>
-              <li>Adres & İletişim Bilgileri</li>
-              <li>Bilgilerin Onayı</li>
-            </ul>
-            <b id="informations">
-              <div class="row m-0 text-left px-5">
-                <div class="row m-0 w-100">
-                  <h4 class="text-warning font-weight-bolder pl-3">
-                    FİRMA BİLGİLERİ
-                  </h4>
+          <b id="informations">
+            <div class="row m-0 text-left px-5">
+              <div class="row m-0 w-100">
+                <h4 class="text-warning font-weight-bolder pl-3">
+                  FİRMA BİLGİLERİ
+                </h4>
+              </div>
+              <div class="row m-0 w-100">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning mt-1">KEP ADRESİ</p>
+                  <input type="text" class="rounded-lg text-muted border w-100 p-2"
+                    placeholder="Kep Adresi Giriniz  " />
                 </div>
-                <div class="row m-0 w-100">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning mt-1">KEP ADRESİ</p>
-                    <input
-                      type="text"
-                      class="rounded-lg text-muted border w-100 p-2"
-                      placeholder="Kep Adresi Giriniz  "
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning mt-1">KEP ADRESİ</p>
-                    <input
-                      type="text"
-                      class="rounded-lg text-muted border w-100 p-2"
-                      placeholder="Kep Adresi Giriniz"
-                    />
-                  </div>
-                </div>
-                <div class="row m-0 w-100">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">VERGİ DAİRESİ</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="VERGİ DAİRESİ"
-                    >
-                      <option>Vergi Dairesi Seçiniz</option>
-                      <option>İstanbul</option>
-                      <option>Bursa</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">VERGİ DAİRESİ</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="FATURA TÜRÜ"
-                    >
-                      <option>Fatura Türü Seçiniz</option>
-                      <option>İrsaliyeli Fatura</option>
-                      <option>Proforma Fatura</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">ŞİRKET TÜRÜ</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="ŞİRKET TÜRÜ"
-                    >
-                      <option>Şirket Türü Seçiniz</option>
-                      <option>Anonim</option>
-                      <option>Limited</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">VKN / TCKN</p>
-                    <input
-                      type="text"
-                      class="rounded border shadow rounded w-100 p-2"
-                    />
-                  </div>
-                </div>
-                <div class="row m-0 w-100">
-                  <div class="col-12 mt-5 text-center"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning mt-1">KEP ADRESİ</p>
+                  <input type="text" class="rounded-lg text-muted border w-100 p-2" placeholder="Kep Adresi Giriniz" />
                 </div>
               </div>
-              <div class="row m-0 px-5 justify-content-end">
-                <input
-                  type="button"
-                  name="next"
-                  class="
+              <div class="row m-0 w-100">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">VERGİ DAİRESİ</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="VERGİ DAİRESİ">
+                    <option>Vergi Dairesi Seçiniz</option>
+                    <option>İstanbul</option>
+                    <option>Bursa</option>
+                  </select>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">VERGİ DAİRESİ</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="FATURA TÜRÜ">
+                    <option>Fatura Türü Seçiniz</option>
+                    <option>İrsaliyeli Fatura</option>
+                    <option>Proforma Fatura</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">ŞİRKET TÜRÜ</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="ŞİRKET TÜRÜ">
+                    <option>Şirket Türü Seçiniz</option>
+                    <option>Anonim</option>
+                    <option>Limited</option>
+                  </select>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">VKN / TCKN</p>
+                  <input type="text" class="rounded border shadow rounded w-100 p-2" />
+                </div>
+              </div>
+              <div class="row m-0 w-100">
+                <div class="col-12 mt-5 text-center"></div>
+              </div>
+            </div>
+            <div class="row m-0 px-5 justify-content-end">
+              <input type="button" name="next" class="
                     next
                     btn btn-warning
                     font-weight-bolder
@@ -296,44 +196,31 @@
                     nowrap
                     action-button
                     d-inline-block
-                  "
-                  value="KAYDET & DEVAM ET"
-                />
+                  " value="KAYDET & DEVAM ET" />
+            </div>
+          </b>
+          <b id="informations">
+            <div class="row m-0 w-100 px-5">
+              <h3 class="text-warning font-weight-bolder">ÖDEME BİLGİLERİ</h3>
+            </div>
+            <div class="row w-100 m-0 px-5">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="text-warning">BANKA ADI</p>
               </div>
-            </b>
-            <b id="informations">
-              <div class="row m-0 w-100 px-5">
-                <h3 class="text-warning font-weight-bolder">ÖDEME BİLGİLERİ</h3>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="text-warning">IBAN NUMARASI</p>
               </div>
-              <div class="row w-100 m-0 px-5">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <p class="text-warning">BANKA ADI</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <p class="text-warning">IBAN NUMARASI</p>
-                </div>
+            </div>
+            <div class="row m-0 w-100 px-5">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <input type="text" placeholder="Banka Adı" class="rounded border w-100 p-2" />
               </div>
-              <div class="row m-0 w-100 px-5">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <input
-                    type="text"
-                    placeholder="Banka Adı"
-                    class="rounded border w-100 p-2"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <input
-                    type="text"
-                    placeholder="TR00 0000 0000 0000 0000 0000 00"
-                    class="rounded border p-2"
-                  />
-                </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <input type="text" placeholder="TR00 0000 0000 0000 0000 0000 00" class="rounded border p-2" />
               </div>
-              <div class="row m-0 px-5 justify-content-between">
-                <input
-                  type="button"
-                  name="previous"
-                  class="
+            </div>
+            <div class="row m-0 px-5 justify-content-between">
+              <input type="button" name="previous" class="
                     previous
                     action-button
                     btn
@@ -341,13 +228,8 @@
                     rounded
                     float-left
                     margin-widht-left
-                  "
-                  value="GERİ DÖN"
-                />
-                <input
-                  type="button"
-                  name="next"
-                  class="
+                  " value="GERİ DÖN" />
+              <input type="button" name="next" class="
                     next
                     action-button
                     btn btn-warning
@@ -356,76 +238,51 @@
                     nowrap
                     float-right
                     margin-widht-right
-                  "
-                  value="KAYDET & DEVAM ET"
-                />
+                  " value="KAYDET & DEVAM ET" />
+            </div>
+          </b>
+          <b id="informations">
+            <div class="row m-0 w-100 px-5">
+              <div class="row m-0 w-100 mt-2">
+                <h3 class="text-warning font-weight-bolder">
+                  SATIŞ & OPERASYON BİLGİLERİ
+                </h3>
               </div>
-            </b>
-            <b id="informations">
-              <div class="row m-0 w-100 px-5">
-                <div class="row m-0 w-100 mt-2">
-                  <h3 class="text-warning font-weight-bolder">
-                    SATIŞ & OPERASYON BİLGİLERİ
-                  </h3>
+              <div class="row m-0 w-100 mt-2">
+                <p class="text-warning">
+                  SATICI / MAĞAZA ADI (HOOPTİCA.COM'DA GÖSTERİLECEK ADINIZ)
+                </p>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <input type="text" class="border rounded w-100 ml-3 mr-3 p-2" placeholder="Banka Adı" />
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">KARGO ŞİRKETİ</p>
+                  <input type="text" class="border rounded w-100 p-2" placeholder="KARGO ŞİRKETİ" />
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <p class="text-warning">
-                    SATICI / MAĞAZA ADI (HOOPTİCA.COM'DA GÖSTERİLECEK ADINIZ)
-                  </p>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <input
-                    type="text"
-                    class="border rounded w-100 ml-3 mr-3 p-2"
-                    placeholder="Banka Adı"
-                  />
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">KARGO ŞİRKETİ</p>
-                    <input
-                      type="text"
-                      class="border rounded w-100 p-2"
-                      placeholder="KARGO ŞİRKETİ"
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">KARGO TESLİM SÜRESİ</p>
-                    <input
-                      type="text"
-                      class="border rounded w-100 p-2"
-                      placeholder="2 Gün / 48 Saat"
-                    />
-                  </div>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">TERCİH EDİLEN ENTEGRASYON MODELİ</p>
-                    <input
-                      type="text"
-                      class="rounded border p-2 w-100"
-                      placeholder="Entegrasyon Modeli"
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">ENTEGRASYON FİRMALARI</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="VERGİ DAİRESİ"
-                    >
-                      <option>Entegrasyon Firması Seçiniz</option>
-                      <option>X Firması</option>
-                      <option>Y Firması</option>
-                    </select>
-                  </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">KARGO TESLİM SÜRESİ</p>
+                  <input type="text" class="border rounded w-100 p-2" placeholder="2 Gün / 48 Saat" />
                 </div>
               </div>
-              <div class="row m-0 px-5 justify-content-between">
-                <input
-                  type="button"
-                  name="previous"
-                  class="
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">TERCİH EDİLEN ENTEGRASYON MODELİ</p>
+                  <input type="text" class="rounded border p-2 w-100" placeholder="Entegrasyon Modeli" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">ENTEGRASYON FİRMALARI</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="VERGİ DAİRESİ">
+                    <option>Entegrasyon Firması Seçiniz</option>
+                    <option>X Firması</option>
+                    <option>Y Firması</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row m-0 px-5 justify-content-between">
+              <input type="button" name="previous" class="
                     previous
                     action-button
                     btn
@@ -433,13 +290,8 @@
                     rounded
                     float-left
                     margin-widht-left
-                  "
-                  value="GERİ DÖN"
-                />
-                <input
-                  type="button"
-                  name="next"
-                  class="
+                  " value="GERİ DÖN" />
+              <input type="button" name="next" class="
                     next
                     action-button
                     btn btn-warning
@@ -448,181 +300,152 @@
                     nowrap
                     float-right
                     margin-widht-right
-                  "
-                  value="KAYDET & DEVAM ET"
-                />
+                  " value="KAYDET & DEVAM ET" />
+            </div>
+          </b>
+          <b id="informations">
+            <div class="row m-0 w-100 px-5">
+              <div class="row m-0 w-100 mt-2">
+                <h3 class="text-warning w-100 font-weight-bolder text-left">
+                  ADRES & İLETİŞİM BİLGİLERİ
+                </h3>
+                <h2 class="text-warning w-100 text-left">FATURA ADRESİ</h2>
               </div>
-            </b>
-            <b id="informations">
-              <div class="row m-0 w-100 px-5">
-                <div class="row m-0 w-100 mt-2">
-                  <h3 class="text-warning w-100 font-weight-bolder text-left">
-                    ADRES & İLETİŞİM BİLGİLERİ
-                  </h3>
-                  <h2 class="text-warning w-100 text-left">FATURA ADRESİ</h2>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">İL</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="VERGİ DAİRESİ">
+                    <option>İl Seçiniz</option>
+                    <option>İstanbul</option>
+                    <option>İzmir</option>
+                    <option>Ankara</option>
+                  </select>
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">İL</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="VERGİ DAİRESİ"
-                    >
-                      <option>İl Seçiniz</option>
-                      <option>İstanbul</option>
-                      <option>İzmir</option>
-                      <option>Ankara</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="text-warning">İLÇE</p>
-                    <select
-                      type="text"
-                      class="p-2 w-100 border"
-                      placeholder="VERGİ DAİRESİ"
-                    >
-                      <option>İlçe Seçiniz</option>
-                      <option>Etiler</option>
-                      <option>Beylikdüzü</option>
-                      <option>İkitelli</option>
-                    </select>
-                  </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p class="text-warning">İLÇE</p>
+                  <select type="text" class="p-2 w-100 border" placeholder="VERGİ DAİRESİ">
+                    <option>İlçe Seçiniz</option>
+                    <option>Etiler</option>
+                    <option>Beylikdüzü</option>
+                    <option>İkitelli</option>
+                  </select>
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-12">
-                    <p class="text-warning text-left">ADRES</p>
-                    <input
-                      type="text"
-                      class="border rounded p-2"
-                      placeholder="Adres Giriniz"
-                    />
-                  </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-12">
+                  <p class="text-warning text-left">ADRES</p>
+                  <input type="text" class="border rounded p-2" placeholder="Adres Giriniz" />
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-12">
-                    <p class="text-warning text-left">Şirket Merkezi Adresi</p>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Fatura adresim ile aynı
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Fatura adresim ile farklı
-                      </p>
-                    </div>
-                  </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-12">
+                  <p class="text-warning text-left">Şirket Merkezi Adresi</p>
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-12">
-                    <p class="text-warning text-left">Sevkiyat Depo Adresi</p>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Fatura adresim ile aynı
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Fatura adresim ile farklı
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-12">
-                    <p class="text-warning text-left">İade Depo Adresi</p>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Sevkiyat depo adresim ile aynı
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Sevkiyat depo adresim ile farklı
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <h3 class="text-warning w-100 text-left">
-                    YETKİLİ BİLGİLERİ
-                  </h3>
-                  <h4 class="text-warning">FİNANS YETKİLİSİ</h4>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="col-lg-4 col-md-4 col-sm-12">
-                    <p class="text-warning">ADI SOYADI</p>
-                    <input
-                      type="text"
-                      class="border rounded p-2"
-                      placeholder="Ad ve Soyad Giriniz"
-                    />
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12">
-                    <p class="text-warning">E-MAİL ADRESİ</p>
-                    <input
-                      type="text"
-                      class="border rounded p-2"
-                      placeholder="@"
-                    />
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12">
-                    <p class="text-warning">TELEFON NUMARASI</p>
-                    <input
-                      type="text"
-                      class="border rounded p-2"
-                      placeholder="0(5_ _ )"
-                    />
-                  </div>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <div class="row m-0 w-100 mt-2">
-                    <p class="text-warning">
-                      MÜŞTERİ DENEYİMİ & OPERASYON YETKİLİSİ
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Fatura adresim ile aynı
                     </p>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Finans Yetkilisi ile aynı
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="row m-0 w-100">
-                      <input type="radio" class="w-25" />
-                      <p class="text-muted">
-                        &nbsp;&nbsp;Finans Yetkilisi ile farklı
-                      </p>
-                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Fatura adresim ile farklı
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="row m-0 px-5 justify-content-between">
-                <input
-                  type="button"
-                  name="previous"
-                  class="
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-12">
+                  <p class="text-warning text-left">Sevkiyat Depo Adresi</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Fatura adresim ile aynı
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Fatura adresim ile farklı
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-12">
+                  <p class="text-warning text-left">İade Depo Adresi</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Sevkiyat depo adresim ile aynı
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Sevkiyat depo adresim ile farklı
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <h3 class="text-warning w-100 text-left">
+                  YETKİLİ BİLGİLERİ
+                </h3>
+                <h4 class="text-warning">FİNANS YETKİLİSİ</h4>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="text-warning">ADI SOYADI</p>
+                  <input type="text" class="border rounded p-2" placeholder="Ad ve Soyad Giriniz" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="text-warning">E-MAİL ADRESİ</p>
+                  <input type="text" class="border rounded p-2" placeholder="@" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="text-warning">TELEFON NUMARASI</p>
+                  <input type="text" class="border rounded p-2" placeholder="0(5_ _ )" />
+                </div>
+              </div>
+              <div class="row m-0 w-100 mt-2">
+                <div class="row m-0 w-100 mt-2">
+                  <p class="text-warning">
+                    MÜŞTERİ DENEYİMİ & OPERASYON YETKİLİSİ
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Finans Yetkilisi ile aynı
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="row m-0 w-100">
+                    <input type="radio" class="w-25" />
+                    <p class="text-muted">
+                      &nbsp;&nbsp;Finans Yetkilisi ile farklı
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row m-0 px-5 justify-content-between">
+              <input type="button" name="previous" class="
                     previous
                     action-button
                     btn
@@ -630,13 +453,8 @@
                     rounded
                     float-left
                     margin-widht-left
-                  "
-                  value="GERİ DÖN"
-                />
-                <input
-                  type="button"
-                  name="next"
-                  class="
+                  " value="GERİ DÖN" />
+              <input type="button" name="next" class="
                     next
                     action-button
                     btn btn-warning
@@ -645,51 +463,46 @@
                     nowrap
                     float-right
                     margin-widht-right
-                  "
-                  value="KAYDET & DEVAM ET"
-                />
-              </div>
-            </b>
-            <b id="informations">
-              <div class="row m-0 w-100 mt-2 px-5">
-                <h2 class="font-weihgt-bolder text-warning font-weight-bolder">
-                  BİLGİLERİN ONAYI
-                </h2>
-              </div>
-              <div class="row m-0 w-100 mt-2 px-5">
-                <p class="text-muted">Sayın yetkili;</p>
-                <br />
-                <br />
-                <p class="text-muted w-100 text-left">
-                  Bilgileriniz değerlendirme ve kontrol için ilgili ekiplerimize
-                  gönderilecektir. Onayladıktan sonra bilgilerinizde değişiklik
-                  yapamayacaksınız.
-                </p>
-                <br />
-                <br />
-                <p class="text-muted">
-                  Hesap açılış işlemlerinizin tamamlanabilmesi için bu aşamadan
-                  sonra hızlıca evraklarınızı yüklemelisiniz.
-                </p>
-                <br />
-                <br />
-                <p class="text-muted">
-                  Detaylı bilgiye buradan ulaşabilirsiniz.
-                </p>
-              </div>
-              <div class="row m-0 w-100 mt-2 px-5">
-                <input type="checkbox" class="d-inline-block float-left mt-7" />
-                <p class="float-left mt-9">
-                  &nbsp;&nbsp;6698 sayılı Kişisel Verilerin Korunması Kanunu
-                  uyarınca Aydınlatma Yükümlülüğü Bildirimi ve Gizlilik
-                  Politikası okudum , kabul ediyorum.
-                </p>
-              </div>
-              <div class="row m-0 px-5 justify-content-between">
-                <input
-                  type="button"
-                  name="previous"
-                  class="
+                  " value="KAYDET & DEVAM ET" />
+            </div>
+          </b>
+          <b id="informations">
+            <div class="row m-0 w-100 mt-2 px-5">
+              <h2 class="font-weihgt-bolder text-warning font-weight-bolder">
+                BİLGİLERİN ONAYI
+              </h2>
+            </div>
+            <div class="row m-0 w-100 mt-2 px-5">
+              <p class="text-muted">Sayın yetkili;</p>
+              <br />
+              <br />
+              <p class="text-muted w-100 text-left">
+                Bilgileriniz değerlendirme ve kontrol için ilgili ekiplerimize
+                gönderilecektir. Onayladıktan sonra bilgilerinizde değişiklik
+                yapamayacaksınız.
+              </p>
+              <br />
+              <br />
+              <p class="text-muted">
+                Hesap açılış işlemlerinizin tamamlanabilmesi için bu aşamadan
+                sonra hızlıca evraklarınızı yüklemelisiniz.
+              </p>
+              <br />
+              <br />
+              <p class="text-muted">
+                Detaylı bilgiye buradan ulaşabilirsiniz.
+              </p>
+            </div>
+            <div class="row m-0 w-100 mt-2 px-5">
+              <input type="checkbox" class="d-inline-block float-left mt-7" />
+              <p class="float-left mt-9">
+                &nbsp;&nbsp;6698 sayılı Kişisel Verilerin Korunması Kanunu
+                uyarınca Aydınlatma Yükümlülüğü Bildirimi ve Gizlilik
+                Politikası okudum , kabul ediyorum.
+              </p>
+            </div>
+            <div class="row m-0 px-5 justify-content-between">
+              <input type="button" name="previous" class="
                     previous
                     action-button
                     btn
@@ -697,13 +510,8 @@
                     rounded
                     float-left
                     margin-widht-left
-                  "
-                  value="BİLGİLERİMİ KONTROL ETMEK İSTİYORUM"
-                />
-                <input
-                  type="button"
-                  name="submit"
-                  class="
+                  " value="BİLGİLERİMİ KONTROL ETMEK İSTİYORUM" />
+              <input type="button" name="submit" class="
                     submit
                     action-button
                     btn btn-warning
@@ -712,63 +520,60 @@
                     nowrap
                     float-right
                     margin-widht-right
-                  "
-                  value="BİLGİLERİMİN DOĞRULUĞUNU ONAYLIYORUM"
-                />
+                  " value="BİLGİLERİMİN DOĞRULUĞUNU ONAYLIYORUM" />
+            </div>
+          </b>
+        </fieldset>
+        <fieldset>
+          <ul id="sendInformation">
+            <li class="active text-decoration">
+              Satıcılık Üyelik Sözleşmesi
+            </li>
+            <li>Diğer Belgeler</li>
+          </ul>
+          <b id="informations">
+            <div class="row m-0 px-5">
+              <div class="row m-0 w-100">
+                <h2 class="font-weight-bolder text-warning">
+                  SATICI ÜYELİK SÖZLEŞMESİ
+                </h2>
               </div>
-            </b>
-          </fieldset>
-          <fieldset>
-            <ul id="sendInformation">
-              <li class="active text-decoration">
-                Satıcılık Üyelik Sözleşmesi
-              </li>
-              <li>Diğer Belgeler</li>
-            </ul>
-            <b id="informations">
-              <div class="row m-0 px-5">
-                <div class="row m-0 w-100">
-                  <h2 class="font-weight-bolder text-warning">
-                    SATICI ÜYELİK SÖZLEŞMESİ
-                  </h2>
-                </div>
-                <div class="row w-100 ml-2">
-                  <p class="text-muted text-left">
-                    -Yedek Parçacı Dünyası Satıcı İş Ortaklığı ve İlan
-                    Sözleşmesi'ni imzalamak için buradan indirebilirsiniz.
-                    Sözleşme maddeleri ve komisyon vade bilgilerinde değişiklik
-                    yapılamaz.
-                  </p>
-                  <br />
-                  <br />
-                  <p class="text-muted text-left">
-                    - Sözleşmenin her sayfasında imza sirkülerinde imza
-                    yetkilerinin ıslak imzası ve firma kaşesi olmalıdır.
-                  </p>
-                  <br />
-                  <br />
-                  <p class="text-muted text-left">
-                    -Sisteme taradığınız evraklarınız Yedek Parçacı Dünyası
-                    tarafından onaylandıktan sonra her sayfası yetkili ıslak
-                    imzası ve kaşe içeren sözleşmenizi aşağıda belirtilen adrese
-                    15 gün içinde kargo ile göndermeniz gerekmektedir.
-                    Belirtilen süre içerisinde bu adrese ulaştırılmazsa
-                    hesabınız askıya alınarak ürünlerinizin satışı
-                    durdurulacaktır.
-                  </p>
-                  <p class="text-muted text-left font-weight-bolder">
-                    Adres: Ankara - İstanbul
-                  </p>
-                </div>
-                <div class="row m-0 w-100">
-                  <i class="fas fa-download"></i>
-                  <a href="" class="text-muted ml-2 cursor-pointer">
-                    <ins>yedekparcacidunyası_sozlesme2.pdf</ins>
-                  </a>
-                </div>
-                <div class="row m-0 w-100">
-                  <div
-                    class="
+              <div class="row w-100 ml-2">
+                <p class="text-muted text-left">
+                  -Yedek Parçacı Dünyası Satıcı İş Ortaklığı ve İlan
+                  Sözleşmesi'ni imzalamak için buradan indirebilirsiniz.
+                  Sözleşme maddeleri ve komisyon vade bilgilerinde değişiklik
+                  yapılamaz.
+                </p>
+                <br />
+                <br />
+                <p class="text-muted text-left">
+                  - Sözleşmenin her sayfasında imza sirkülerinde imza
+                  yetkilerinin ıslak imzası ve firma kaşesi olmalıdır.
+                </p>
+                <br />
+                <br />
+                <p class="text-muted text-left">
+                  -Sisteme taradığınız evraklarınız Yedek Parçacı Dünyası
+                  tarafından onaylandıktan sonra her sayfası yetkili ıslak
+                  imzası ve kaşe içeren sözleşmenizi aşağıda belirtilen adrese
+                  15 gün içinde kargo ile göndermeniz gerekmektedir.
+                  Belirtilen süre içerisinde bu adrese ulaştırılmazsa
+                  hesabınız askıya alınarak ürünlerinizin satışı
+                  durdurulacaktır.
+                </p>
+                <p class="text-muted text-left font-weight-bolder">
+                  Adres: Ankara - İstanbul
+                </p>
+              </div>
+              <div class="row m-0 w-100">
+                <i class="fas fa-download"></i>
+                <a href="" class="text-muted ml-2 cursor-pointer">
+                  <ins>yedekparcacidunyası_sozlesme2.pdf</ins>
+                </a>
+              </div>
+              <div class="row m-0 w-100">
+                <div class="
                       col-12 col-lg-6
                       brdr
                       shadow
@@ -776,95 +581,79 @@
                       mt-3
                       pb-5
                       cursor-pointer
-                    "
-                  >
-                    <div class="row m-0 h-100 align-items-center">
-                      <span class="d-inline-block h-50">
-                        <a href=""
-                          ><i
-                            class="
+                    ">
+                  <div class="row m-0 h-100 align-items-center">
+                    <span class="d-inline-block h-50">
+                      <a href=""><i class="
                               fas
                               fa-cloud-upload-alt
                               text-warning
                               fa-3x
                               mt-5
-                            "
-                          ></i
-                        ></a>
-                        <p class="text-muted mt-2">
-                          Yüklemek istediğiniz
-                          <ins class="text-warning">dosyaları seçiniz</ins> ya
-                          da bu alana sürükleyiniz.
-                        </p>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 mt-3">
-                    <div class="row m-0">
-                      <a href="" class="d-inline-block pdfborder p-2 a-font">
-                        <i class="fas fa-check text-warning mr-2"></i
-                        >yedekparcacidunyası_sozlesme2.pdf</a
-                      >
-                    </div>
-                    <div class="row w-100 m-0">
-                      <p class="text-muted">
-                        *Sadece Word (doc,docx) , PDF, RAR , ZIP ve Görsel (jpg
-                        , jpeg , png ) formatında dosya yükleyebilirsiniz.
+                            "></i></a>
+                      <p class="text-muted mt-2">
+                        Yüklemek istediğiniz
+                        <ins class="text-warning">dosyaları seçiniz</ins> ya
+                        da bu alana sürükleyiniz.
                       </p>
-                    </div>
-                    <div class="row m-0 w-100">
-                      <i
-                        class="
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-3">
+                  <div class="row m-0">
+                    <a href="" class="d-inline-block pdfborder p-2 a-font">
+                      <i class="fas fa-check text-warning mr-2"></i>yedekparcacidunyası_sozlesme2.pdf</a>
+                  </div>
+                  <div class="row w-100 m-0">
+                    <p class="text-muted">
+                      *Sadece Word (doc,docx) , PDF, RAR , ZIP ve Görsel (jpg
+                      , jpeg , png ) formatında dosya yükleyebilirsiniz.
+                    </p>
+                  </div>
+                  <div class="row m-0 w-100">
+                    <i class="
                           fas
                           fa-exclamation-circle
                           text-warning
                           float-left
-                        "
-                      ></i>
-                      <p class="text-muted a-font p-widht float-left mr-2">
-                        Dikkat : Belge kaydedildikten sonra bir önceki ekrana
-                        geri dönülemez.
-                      </p>
-                    </div>
-                    <div class="row m-0 w-100">
-                      <div
-                        class="
+                        "></i>
+                    <p class="text-muted a-font p-widht float-left mr-2">
+                      Dikkat : Belge kaydedildikten sonra bir önceki ekrana
+                      geri dönülemez.
+                    </p>
+                  </div>
+                  <div class="row m-0 w-100">
+                    <div class="
                           col
                           company-border
                           border border-warning
                           mr-1
                           mb-3
-                        "
-                      >
-                        <h4 class="text-warning font-weight-bolder">
-                          Şahıs Şirketi
-                        </h4>
-                        <p class="text-muted text-left">
-                          - Yedek Parçacı Dünyası Satıcı Üyelik Sözleşmesi
-                          -Vergi Levhası -İmza Beyannamesi
-                        </p>
-                      </div>
-                      <div
-                        class="col company-border border border-warning ml-1"
-                      >
-                        <h4 class="text-warning font-weight-bolder">
-                          Limited, Anonim veya Diğer
-                        </h4>
-                        <p class="text-muted text-left">
-                          - Yedek Parçacı Dünyası Satıcı Üyelik Sözleşmesi
-                          -Vergi Levhası -İmza Sirküleri -Ticari Sicil Gazetesi
-                          -Faaliyet Belgesi
-                        </p>
-                      </div>
+                        ">
+                      <h4 class="text-warning font-weight-bolder">
+                        Şahıs Şirketi
+                      </h4>
+                      <p class="text-muted text-left">
+                        - Yedek Parçacı Dünyası Satıcı Üyelik Sözleşmesi
+                        -Vergi Levhası -İmza Beyannamesi
+                      </p>
+                    </div>
+                    <div class="col company-border border border-warning ml-1">
+                      <h4 class="text-warning font-weight-bolder">
+                        Limited, Anonim veya Diğer
+                      </h4>
+                      <p class="text-muted text-left">
+                        - Yedek Parçacı Dünyası Satıcı Üyelik Sözleşmesi
+                        -Vergi Levhası -İmza Sirküleri -Ticari Sicil Gazetesi
+                        -Faaliyet Belgesi
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="row m-0 px-5 justify-content-end mt-3">
-                <input
-                  type="button"
-                  name="next"
-                  class="
+            </div>
+            <div class="row m-0 px-5 justify-content-end mt-3">
+              <input type="button" name="next" class="
                     next
                     btn btn-warning
                     font-weight-bolder
@@ -874,115 +663,94 @@
                     nowrap
                     action-button
                     d-inline-block
-                  "
-                  value="KAYDET & ONAYLA"
-                />
-              </div>
-            </b>
-            <b id="informations">
-              <div class="row m-0 w-100 px-5">
-                <div class="row m-0 w-100 mt-2 justify-content-between">
-                  <p
-                    class="
+                  " value="KAYDET & ONAYLA" />
+            </div>
+          </b>
+          <b id="informations">
+            <div class="row m-0 w-100 px-5">
+              <div class="row m-0 w-100 mt-2 justify-content-between">
+                <p class="
                       text-warning
                       font-weight-bolder
                       float-left
                       text-font text-left
-                    "
-                  >
-                    Ticari Sicil Gazetesi
-                  </p>
-                  <input type="text" class="float-left p-2 input-font" />
-                  <button
-                    class="
+                    ">
+                  Ticari Sicil Gazetesi
+                </p>
+                <input type="text" class="float-left p-2 input-font" />
+                <button class="
                       btn btn-warning
                       text-light
                       float-left
                       btn-font
                       rounded
-                    "
-                  >
-                    Yükle
-                  </button>
-                </div>
-                <div class="row m-0 w-100 mt-2 justify-content-between">
-                  <p
-                    class="
-                      text-muted
-                      font-weight-bolder
-                      float-left
-                      text-font text-left
-                    "
-                  >
-                    Vergi Levhası
-                  </p>
-                  <input type="text" class="float-left p-2 input-font" />
-                  <button
-                    class="
-                      btn btn-warning
-                      text-light
-                      float-left
-                      btn-font
-                      rounded
-                    "
-                  >
-                    Yükle
-                  </button>
-                </div>
-                <div class="row m-0 w-100 mt-2 justify-content-between">
-                  <p
-                    class="
-                      text-muted
-                      font-weight-bolder
-                      float-left
-                      text-font text-left
-                    "
-                  >
-                    Faaliyet Belgesi
-                  </p>
-                  <input type="text" class="float-left p-2 input-font" />
-                  <button
-                    class="
-                      btn btn-warning
-                      text-light
-                      float-left
-                      btn-font
-                      rounded
-                    "
-                  >
-                    Yükle
-                  </button>
-                </div>
-                <div class="row m-0 w-100 mt-2 justify-content-between">
-                  <p
-                    class="
-                      text-muted
-                      font-weight-bolder
-                      float-left
-                      text-font text-left
-                    "
-                  >
-                    İmza Sirküleri
-                  </p>
-                  <input type="text" class="float-left p-2 input-font" />
-                  <button
-                    class="
-                      btn btn-warning
-                      text-light
-                      float-left
-                      btn-font
-                      rounded
-                    "
-                  >
-                    Yükle
-                  </button>
-                </div>
+                    ">
+                  Yükle
+                </button>
               </div>
-              <div class="row m-0 px-5 justify-content-between mt-3">
-                <input
-                  type="button"
-                  name="previous"
-                  class="
+              <div class="row m-0 w-100 mt-2 justify-content-between">
+                <p class="
+                      text-muted
+                      font-weight-bolder
+                      float-left
+                      text-font text-left
+                    ">
+                  Vergi Levhası
+                </p>
+                <input type="text" class="float-left p-2 input-font" />
+                <button class="
+                      btn btn-warning
+                      text-light
+                      float-left
+                      btn-font
+                      rounded
+                    ">
+                  Yükle
+                </button>
+              </div>
+              <div class="row m-0 w-100 mt-2 justify-content-between">
+                <p class="
+                      text-muted
+                      font-weight-bolder
+                      float-left
+                      text-font text-left
+                    ">
+                  Faaliyet Belgesi
+                </p>
+                <input type="text" class="float-left p-2 input-font" />
+                <button class="
+                      btn btn-warning
+                      text-light
+                      float-left
+                      btn-font
+                      rounded
+                    ">
+                  Yükle
+                </button>
+              </div>
+              <div class="row m-0 w-100 mt-2 justify-content-between">
+                <p class="
+                      text-muted
+                      font-weight-bolder
+                      float-left
+                      text-font text-left
+                    ">
+                  İmza Sirküleri
+                </p>
+                <input type="text" class="float-left p-2 input-font" />
+                <button class="
+                      btn btn-warning
+                      text-light
+                      float-left
+                      btn-font
+                      rounded
+                    ">
+                  Yükle
+                </button>
+              </div>
+            </div>
+            <div class="row m-0 px-5 justify-content-between mt-3">
+              <input type="button" name="previous" class="
                     previous
                     action-button
                     btn
@@ -990,13 +758,8 @@
                     rounded
                     float-left
                     margin-widht-left
-                  "
-                  value="GERİ DÖN"
-                />
-                <input
-                  type="button"
-                  name="submit"
-                  class="
+                  " value="GERİ DÖN" />
+              <input type="button" name="submit" class="
                     submit
                     action-button
                     btn btn-warning
@@ -1005,243 +768,208 @@
                     nowrap
                     float-right
                     margin-widht-right
-                  "
-                  value="KAYDET & DEVAM ET"
-                />
-              </div>
-            </b>
-          </fieldset>
-          <fieldset>
-            <h2 class="fs-title text-warning text-left px-5">BELGE KONTROLÜ</h2>
-            <p class="fs-subtitle text-muted text-left px-5">
-              Belge kontrolü aşamasında yüklemiş olduğunuz 2 adet dosyanın
-              hatalı olduğu tespit edilmiştir. Lütfen dosyalarınızı
-              güncelleyiniz.
-            </p>
-            <div class="row m-0 px-5 justify-content-start mt-3">
-              <div class="w-100 text-left">
-                <input
-                  type="button"
-                  name="submit"
-                  class="
+                  " value="KAYDET & DEVAM ET" />
+            </div>
+          </b>
+        </fieldset>
+        <fieldset>
+          <h2 class="fs-title text-warning text-left px-5">BELGE KONTROLÜ</h2>
+          <p class="fs-subtitle text-muted text-left px-5">
+            Belge kontrolü aşamasında yüklemiş olduğunuz 2 adet dosyanın
+            hatalı olduğu tespit edilmiştir. Lütfen dosyalarınızı
+            güncelleyiniz.
+          </p>
+          <div class="row m-0 px-5 justify-content-start mt-3">
+            <div class="w-100 text-left">
+              <input type="button" name="submit" class="
                     submit
                     btn btn-warning
                     font-weight-bolder
                     text-light
                     rounded
-                  "
-                  value="BİLGİLERİMİ GÜNCELLE"
-                />
-              </div>
+                  " value="BİLGİLERİMİ GÜNCELLE" />
             </div>
-          </fieldset>
-          <fieldset>
-            <h2 class="fs-title text-left text-warning font-weight-bolder px-5">
-              BELGE KONTROLÜ
-            </h2>
-            <p class="fs-subtitle text-left text-muted px-5">
-              Belgeleriniz onaylanmıştır. Ürünleriniz kontrol edildikten sonra
-              satışa başlayabilirsiniz. Kontrol aşaması bir kaç gün sürebilir.
-              Ürün Yönetimi ekranından yeni ürün ekleyebilir , daha önce
-              yüklediğiniz ürünlerinizin onay durumunu kontrol edebilirsiniz.
-            </p>
-            <div class="row m-0 px-5 justify-content-start mt-3">
-              <a
-                type="button"
-                class="
+          </div>
+        </fieldset>
+        <fieldset>
+          <h2 class="fs-title text-left text-warning font-weight-bolder px-5">
+            BELGE KONTROLÜ
+          </h2>
+          <p class="fs-subtitle text-left text-muted px-5">
+            Belgeleriniz onaylanmıştır. Ürünleriniz kontrol edildikten sonra
+            satışa başlayabilirsiniz. Kontrol aşaması bir kaç gün sürebilir.
+            Ürün Yönetimi ekranından yeni ürün ekleyebilir , daha önce
+            yüklediğiniz ürünlerinizin onay durumunu kontrol edebilirsiniz.
+          </p>
+          <div class="row m-0 px-5 justify-content-start mt-3">
+            <a type="button" class="
                   btn btn-warning
                   font-weight-bolder
                   text-light
                   rounded
                   d-inline-block
-                "
-                href="select-package.html"
-                >PAKET SEÇ</a
-              >
-            </div>
-          </fieldset>
-        </form>
-      </div>
+                " href="select-package.html">PAKET SEÇ</a>
+          </div>
+        </fieldset>
+      </form>
     </div>
-    <!-- content end -->
+  </div>
+  <!-- content end -->
 
-    <!--Completed Modal-->
-    <div
-      class="modal"
-      id="completedModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="completedModal"
-      aria-hidden="true"
-    >
-      <div
-        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-        role="document"
-      >
-        <div class="modal-content">
-          <div class="modal-body text-center">
-            <div class="row m-0 justify-content-end">
-              <button
-                type="button"
-                class="btn text-warning"
-                data-dismiss="modal"
-              >
-                X
-              </button>
-            </div>
-            <div class="container">
-              <div class="row m-0">
-                <div class="col-6">
-                  <h3 class="font-weight-bolder text-warning">
-                    Bilgi ve Belgeleriniz Başarıyla Yüklenmiştir
-                  </h3>
-                  <p class="text-muted">
-                    Yüklediğiniz bilgi ve belgeler ekiplerimiz tarafından
-                    kontrol edilecektir. Tüm evraklarınız onaylandıktan sonra
-                    hesabınız aktifleştirilecektir. Değerlendirmelerden sonra
-                    tarafınıza e-postanız üzerinden dönüş yapılacaktır.
-                    E-postanızı düzenli olarak takip etmenizi rica ederiz.
-                  </p>
-                  <br /><br />
-                  <p class="text-muted">
-                    Bu esnada ürünlerinizi onaya göndermek üzere yüklemeye
-                    başlayabilirsiniz.
-                  </p>
-                  <button class="btn btn-warning text-light rounded">
-                    ANASAYFAYA GİT
-                  </button>
-                </div>
+  <!--Completed Modal-->
+  <div class="modal" id="completedModal" tabindex="-1" role="dialog" aria-labelledby="completedModal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <div class="row m-0 justify-content-end">
+            <button type="button" class="btn text-warning" data-dismiss="modal">
+              X
+            </button>
+          </div>
+          <div class="container">
+            <div class="row m-0">
+              <div class="col-6">
+                <h3 class="font-weight-bolder text-warning">
+                  Bilgi ve Belgeleriniz Başarıyla Yüklenmiştir
+                </h3>
+                <p class="text-muted">
+                  Yüklediğiniz bilgi ve belgeler ekiplerimiz tarafından
+                  kontrol edilecektir. Tüm evraklarınız onaylandıktan sonra
+                  hesabınız aktifleştirilecektir. Değerlendirmelerden sonra
+                  tarafınıza e-postanız üzerinden dönüş yapılacaktır.
+                  E-postanızı düzenli olarak takip etmenizi rica ederiz.
+                </p>
+                <br /><br />
+                <p class="text-muted">
+                  Bu esnada ürünlerinizi onaya göndermek üzere yüklemeye
+                  başlayabilirsiniz.
+                </p>
+                <button class="btn btn-warning text-light rounded">
+                  ANASAYFAYA GİT
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Completed Modal End-->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
-      type="text/javascript"
-    ></script>
-    <script>
-      var current_fs, next_fs, previous_fs;
-      var left, opacity, scale;
-      var animating;
+  </div>
+  <!--Completed Modal End-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
+    type="text/javascript"></script>
+  <script>
+    var current_fs, next_fs, previous_fs;
+    var left, opacity, scale;
+    var animating;
 
-      $(".next").click(function () {
-        if (animating) return false;
-        animating = true;
-        current_fs = $(this).parent().parent();
-        next_fs = $(this).parent().parent().next();
-        previous_fs = $(this).parent().parent().prev();
-        $("#sendInformation li")
-          .eq($("b").index(next_fs))
-          .addClass("active text-decoration");
-        $("#sendInformation li")
-          .eq($("b").index(current_fs))
-          .removeClass("text-decoration");
-        next_fs.show();
-        current_fs.animate(
-          { opacity: 0 },
-          {
-            step: function (now, mx) {
-              scale = 1 - (1 - now) * 0.2;
-              left = now * 50 + "%";
-              opacity = 1 - now;
-              current_fs.css({ transform: "scale(" + scale + ")" });
-              next_fs.css({ left: left, opacity: opacity });
-            },
-            duration: 0,
-            complete: function () {
-              current_fs.hide();
-              animating = false;
-            },
-            easing: "easeOutQuint",
-          }
-        );
-      });
+    $(".next").click(function () {
+      if (animating) return false;
+      animating = true;
+      current_fs = $(this).parent().parent();
+      next_fs = $(this).parent().parent().next();
+      previous_fs = $(this).parent().parent().prev();
+      $("#sendInformation li")
+        .eq($("b").index(next_fs))
+        .addClass("active text-decoration");
+      $("#sendInformation li")
+        .eq($("b").index(current_fs))
+        .removeClass("text-decoration");
+      next_fs.show();
+      current_fs.animate(
+        { opacity: 0 },
+        {
+          step: function (now, mx) {
+            scale = 1 - (1 - now) * 0.2;
+            left = now * 50 + "%";
+            opacity = 1 - now;
+            current_fs.css({ transform: "scale(" + scale + ")" });
+            next_fs.css({ left: left, opacity: opacity });
+          },
+          duration: 0,
+          complete: function () {
+            current_fs.hide();
+            animating = false;
+          },
+          easing: "easeOutQuint",
+        }
+      );
+    });
 
-      $(".previous").click(function () {
-        if (animating) return false;
-        animating = true;
-        current_fs = $(this).parent().parent();
-        previous_fs = $(this).parent().parent().prev();
-        $("#sendInformation li")
-          .eq($("b").index(current_fs))
-          .removeClass("active text-decoration");
-        $("#sendInformation li")
-          .eq($("b").index(previous_fs))
-          .addClass("active text-decoration");
-        previous_fs.show();
-        current_fs.animate(
-          { opacity: 0 },
-          {
-            step: function (now, mx) {
-              scale = 0.8 + (1 - now) * 0.2;
-              left = (1 - now) * 50 + "%";
-              opacity = 1 - now;
-              current_fs.css({ left: left });
-              previous_fs.css({
-                transform: "scale(" + scale + ")",
-                opacity: opacity,
-              });
-            },
-            duration: 0,
-            complete: function () {
-              current_fs.hide();
-              animating = false;
-            },
-            easing: "easeOutQuint",
-          }
-        );
-      });
+    $(".previous").click(function () {
+      if (animating) return false;
+      animating = true;
+      current_fs = $(this).parent().parent();
+      previous_fs = $(this).parent().parent().prev();
+      $("#sendInformation li")
+        .eq($("b").index(current_fs))
+        .removeClass("active text-decoration");
+      $("#sendInformation li")
+        .eq($("b").index(previous_fs))
+        .addClass("active text-decoration");
+      previous_fs.show();
+      current_fs.animate(
+        { opacity: 0 },
+        {
+          step: function (now, mx) {
+            scale = 0.8 + (1 - now) * 0.2;
+            left = (1 - now) * 50 + "%";
+            opacity = 1 - now;
+            current_fs.css({ left: left });
+            previous_fs.css({
+              transform: "scale(" + scale + ")",
+              opacity: opacity,
+            });
+          },
+          duration: 0,
+          complete: function () {
+            current_fs.hide();
+            animating = false;
+          },
+          easing: "easeOutQuint",
+        }
+      );
+    });
 
-      $(".submit").click(function () {
-        if (animating) return false;
-        animating = true;
-        current_fs = $(this).parent().parent().parent();
-        next_fs = $(this).parent().parent().parent().next();
-        $("#progressbar li")
-          .eq($("fieldset").index(next_fs))
-          .addClass("active");
-        current_fs.hide();
-        next_fs.show();
-        current_fs.animate(
-          { opacity: 0 },
-          {
-            step: function (now, mx) {
-              scale = 1 - (1 - now) * 0.2;
-              left = now * 50 + "%";
-              opacity = 1 - now;
-              current_fs.css({ transform: "scale(" + scale + ")" });
-              next_fs.css({ left: left, opacity: opacity });
-            },
-            duration: 500,
-            complete: function () {
-              animating = false;
-            },
-            easing: "easeOutQuint",
-          }
-        );
-      });
-    </script>
-  </body>
+    $(".submit").click(function () {
+      if (animating) return false;
+      animating = true;
+      current_fs = $(this).parent().parent().parent();
+      next_fs = $(this).parent().parent().parent().next();
+      $("#progressbar li")
+        .eq($("fieldset").index(next_fs))
+        .addClass("active");
+      current_fs.hide();
+      next_fs.show();
+      current_fs.animate(
+        { opacity: 0 },
+        {
+          step: function (now, mx) {
+            scale = 1 - (1 - now) * 0.2;
+            left = now * 50 + "%";
+            opacity = 1 - now;
+            current_fs.css({ transform: "scale(" + scale + ")" });
+            next_fs.css({ left: left, opacity: opacity });
+          },
+          duration: 500,
+          complete: function () {
+            animating = false;
+          },
+          easing: "easeOutQuint",
+        }
+      );
+    });
+  </script>
+</body>
+
 </html>

@@ -1,181 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Satıcı Kayıt</title>
-    <link href="css/payment-package.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,shrink-to-fit=no"
-    />
-  </head>
 
-  <body class="p-0">
-    <!-- banner -->
-    <div class="banner-box">
-      <div class="row m-0 h-75 pl-0 pl-md-2">
-        <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a></a>
-        <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
-          <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
-            <div class="row m-0 justify-content-between">
-              <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#bannerMenu"
-                  aria-controls="bannerMenu"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="bannerMenu">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item mr-2 dropdown text-white">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="product"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        ÜRÜN
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="product">
-                        <a class="dropdown-item" href="#">Motor</a>
-                        <a class="dropdown-item" href="#">Yağ</a>
-                        <a class="dropdown-item" href="#">Antifiriz</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="order"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        SİPARİŞ
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="order">
-                        <a class="dropdown-item" href="#"
-                          >Geçmiş Siparişlerim</a
-                        >
-                        <a class="dropdown-item" href="#">Teslim Edilenler</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="paymentAndBill"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        ÖDEME VE FATURA
-                      </a>
-                      <div
-                        class="dropdown-menu"
-                        aria-labelledby="paymentAndBill"
-                      >
-                        <a class="dropdown-item" href="#">Faturalar</a>
-                        <a class="dropdown-item" href="#">Ödemeler</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdownMenuLink"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        PROMOSYONLAR
-                      </a>
-                      <div
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdownMenuLink"
-                      >
-                        <a class="dropdown-item" href="#">Yeni Promosyon</a>
-                        <a class="dropdown-item" href="#"
-                          >Geçmiş Promosyonlar</a
-                        >
-                        <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">RAPOR</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                      <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              <span class="text-white pt-1">
-                <a href="" class="d-inline-block mr-2 banner-icon"
-                  ><i class="fas fa-comment-dots fa-1x"></i
-                ></a>
-                <a href="" class="d-inline-block mr-2 banner-icon"
-                  ><i class="fas fa-bell fa-1x"></i
-                ></a>
-                <a
-                  href="#"
-                  id="profile"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  class="banner-icon d-inline-block mr-2 dropdown-toggle"
-                  ><i class="fas fa-user fa-1x"></i
-                  ><span class="profile-text"> Aykut Yedek Parça</span></a
-                >
-                <div class="dropdown-menu" aria-labelledby="profile">
-                  <a class="dropdown-item" href="#">Yeni Promosyon</a>
-                  <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
-                  <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
-                </div>
-              </span>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Satıcı Kayıt</title>
+  <link href="css/payment-package.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+</head>
+
+<body class="p-0">
+  <!-- banner -->
+  <div class="banner-box">
+    <div class="row m-0 h-75 pl-0 pl-md-2">
+      <a href="dealer-pool.html" class="col-12 col-md-2 p-3 banner-logo"></a></a>
+      <div class="col-12 col-md-10 pr-0 pl-0 pl-md-3 py-3">
+        <div class="banner-menu-box px-3 py-2 mt-0 mt-md-3">
+          <div class="row m-0 justify-content-between">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-black p-0">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bannerMenu"
+                aria-controls="bannerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="bannerMenu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item mr-2 dropdown text-white">
+                    <a class="nav-link dropdown-toggle" href="#" id="product" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÜRÜN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="product">
+                      <a class="dropdown-item" href="dealer-pool.html">Motor</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Yağ</a>
+                      <a class="dropdown-item" href="dealer-pool.html">Antifiriz</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="order" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      SİPARİŞ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="order">
+                      <a class="dropdown-item" href="#">Geçmiş Siparişlerim</a>
+                      <a class="dropdown-item" href="#">Teslim Edilenler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="paymentAndBill" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ÖDEME VE FATURA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="paymentAndBill">
+                      <a class="dropdown-item" href="#">Faturalar</a>
+                      <a class="dropdown-item" href="#">Ödemeler</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      PROMOSYONLAR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Yeni Promosyon</a>
+                      <a class="dropdown-item" href="#">Geçmiş Promosyonlar</a>
+                      <a class="dropdown-item" href="#">Aktif Promosyonlar</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">RAPOR</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">MAĞAZA YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">REKLAM YÖNETİMİ</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">TALEPLERİM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">MESAJLARIM</a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">BAYİLER ARASI SOHBET</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <span class="text-white pt-1">
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-comment-dots fa-1x"></i></a>
+              <a href="" class="d-inline-block mr-2 banner-icon"><i class="fas fa-bell fa-1x"></i></a>
+              <a href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="banner-icon d-inline-block mr-2 dropdown-toggle"><i class="fas fa-user fa-1x"></i><span
+                  class="profile-text"> Aykut Yedek Parça</span></a>
+              <div class="dropdown-menu" aria-labelledby="profile">
+                <a class="dropdown-item text-center" href="dealer-pool.html">Hesabım</a>
+              </div>
+            </span>
           </div>
         </div>
       </div>
     </div>
-    <!-- banner end -->
+  </div>
+  <!-- banner end -->
 
-    <!-- content -->
-    <div class="container mt-5">
-      <h1 class="text-warning text-center font-weight-bold">Ödemeyi Yap</h1>
-      <div class="row m-0 bg-white rounded-lg py-5 px-2 px-lg-5 mb-4 shadow">
-        <div class="col-12 col-md-6 text-center">
-          <img
-            src="images/payment-package.png"
-            width="100%"
-            class="payment-package-img"
-          />
-          <div class="row m-0 justify-content-center text-center mt-3">
-            <div
-              class="
+  <!-- content -->
+  <div class="container mt-5">
+    <h1 class="text-warning text-center font-weight-bold">Ödemeyi Yap</h1>
+    <div class="row m-0 bg-white rounded-lg py-5 px-2 px-lg-5 mb-4 shadow">
+      <div class="col-12 col-md-6 text-center">
+        <img src="images/payment-package.png" width="100%" class="payment-package-img" />
+        <div class="row m-0 justify-content-center text-center mt-3">
+          <div class="
                 d-inline-block
                 shadow
                 border border-warning
@@ -183,89 +123,79 @@
                 px-4
                 py-1
                 payment-title-box
-              "
-            >
-              3 Aylık Üyelik Paketi
-            </div>
+              ">
+            3 Aylık Üyelik Paketi
           </div>
         </div>
-        <div class="col-12 col-md-6 pt-0 pt-lg-3">
-          <h1 class="text-warning font-weight-bolder">3 Aylık Üyelik Paketi</h1>
-          <p class="font-weight-bold">100 TL</p>
-          <div class="row m-0">
-            <div class="col-12 col-lg-8 pl-0 mb-3">
-              <a href="" class="btn btn-outline-warning">DAHA FAZLA BİLGİ AL</a>
-            </div>
-            <div class="col-12 col-lg-4 pl-0">
-              <a
-                href="package-payment-card-informations.html"
-                class="btn btn-warning text-white"
-                >SATIN AL</a
-              >
-            </div>
-          </div>
-        </div>
-        <h4 class="mt-4 font-weight-bolder w-100 text-center">
-          PAKET ÖZELLİKLERİ
-        </h4>
-        <p class="mt-1 mb-0 w-100">Altyapı Hizmetleri</p>
-        <p class="mt-1 mb-0 w-100">Barındırma</p>
-        <p class="mt-1 mb-0 w-100">PHP-Linux-MYSQL altyapısı</p>
-        <p class="mt-1 mb-0 w-100">Alan adınız uzantılı E-posta hesapları</p>
-        <p class="mt-1 mb-0 w-100">Kategori Yönetim Sistemi</p>
-        <p class="mt-1 mb-0 w-100">
-          İstenilen Sayıda Ürün Ana kategorisi girme, kategori güncelleme,
-          kategori silme
-        </p>
-        <p class="mt-1 mb-0 w-100">
-          İstenilen Sayıda Alt Kategori girme , kategori güncelleme, kategori
-          silme
-        </p>
-        <p class="mt-1 mb-0 w-100">İstenilen derinlikte kategori girebilme</p>
-        <p class="mt-1 mb-0 w-100">
-          Kategorilere dolayısıyla kategori altındaki tüm ürünlere indirim
-          tanımlayabilme
-        </p>
-        <p class="mt-1 mb-0 w-100">Ürün Yönetim Sistemi</p>
-        <p class="mt-1 mb-0 w-100">
-          İstenilen Sayıda ürün girme, ürün güncelleme, ürün silme
-        </p>
-        <p class="mt-1 mb-0 w-100">
-          Bir ürünü /yayını birden fazla ürün kategorisine atama
-        </p>
-        <p class="mt-1 mb-0 w-100">
-          Marka tanımlama sistemi, marka güncelleme, marka silme
-        </p>
-        <p class="mt-1 mb-0 w-100">Stok belirleme</p>
-        <p class="mt-1 mb-0 w-100">Toplu Ürün Listeleme Sistemi</p>
-        <p class="mt-1 mb-0 w-100">E-ticaret Fatura Sistemi</p>
-        <p class="mt-1 mb-0 w-100">
-          Fatura formatı ayarlama, istenilen değişkenleri istenilen yerde
-          çıkarma, sınırsız değişken ve yazı ekleme. Tüm işlemler sürükle bırak
-          ile kolaylıkla yapılabiliyor.
-        </p>
-        <p class="mt-1 mb-0 w-100">Fatura numarası girişi ve fatura basımı</p>
-        <p class="mt-1 mb-0 w-100">
-          Geçmiş faturalara erişebilme, arama listeleme
-        </p>
       </div>
+      <div class="col-12 col-md-6 pt-0 pt-lg-3">
+        <h1 class="text-warning font-weight-bolder">3 Aylık Üyelik Paketi</h1>
+        <p class="font-weight-bold">100 TL</p>
+        <div class="row m-0">
+          <div class="col-12 col-lg-8 pl-0 mb-3">
+            <a href="" class="btn btn-outline-warning">DAHA FAZLA BİLGİ AL</a>
+          </div>
+          <div class="col-12 col-lg-4 pl-0">
+            <a href="package-payment-card-informations.html" class="btn btn-warning text-white">SATIN AL</a>
+          </div>
+        </div>
+      </div>
+      <h4 class="mt-4 font-weight-bolder w-100 text-center">
+        PAKET ÖZELLİKLERİ
+      </h4>
+      <p class="mt-1 mb-0 w-100">Altyapı Hizmetleri</p>
+      <p class="mt-1 mb-0 w-100">Barındırma</p>
+      <p class="mt-1 mb-0 w-100">PHP-Linux-MYSQL altyapısı</p>
+      <p class="mt-1 mb-0 w-100">Alan adınız uzantılı E-posta hesapları</p>
+      <p class="mt-1 mb-0 w-100">Kategori Yönetim Sistemi</p>
+      <p class="mt-1 mb-0 w-100">
+        İstenilen Sayıda Ürün Ana kategorisi girme, kategori güncelleme,
+        kategori silme
+      </p>
+      <p class="mt-1 mb-0 w-100">
+        İstenilen Sayıda Alt Kategori girme , kategori güncelleme, kategori
+        silme
+      </p>
+      <p class="mt-1 mb-0 w-100">İstenilen derinlikte kategori girebilme</p>
+      <p class="mt-1 mb-0 w-100">
+        Kategorilere dolayısıyla kategori altındaki tüm ürünlere indirim
+        tanımlayabilme
+      </p>
+      <p class="mt-1 mb-0 w-100">Ürün Yönetim Sistemi</p>
+      <p class="mt-1 mb-0 w-100">
+        İstenilen Sayıda ürün girme, ürün güncelleme, ürün silme
+      </p>
+      <p class="mt-1 mb-0 w-100">
+        Bir ürünü /yayını birden fazla ürün kategorisine atama
+      </p>
+      <p class="mt-1 mb-0 w-100">
+        Marka tanımlama sistemi, marka güncelleme, marka silme
+      </p>
+      <p class="mt-1 mb-0 w-100">Stok belirleme</p>
+      <p class="mt-1 mb-0 w-100">Toplu Ürün Listeleme Sistemi</p>
+      <p class="mt-1 mb-0 w-100">E-ticaret Fatura Sistemi</p>
+      <p class="mt-1 mb-0 w-100">
+        Fatura formatı ayarlama, istenilen değişkenleri istenilen yerde
+        çıkarma, sınırsız değişken ve yazı ekleme. Tüm işlemler sürükle bırak
+        ile kolaylıkla yapılabiliyor.
+      </p>
+      <p class="mt-1 mb-0 w-100">Fatura numarası girişi ve fatura basımı</p>
+      <p class="mt-1 mb-0 w-100">
+        Geçmiş faturalara erişebilme, arama listeleme
+      </p>
     </div>
-    <!-- content end -->
+  </div>
+  <!-- content end -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
