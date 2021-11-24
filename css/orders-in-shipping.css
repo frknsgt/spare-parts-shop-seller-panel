@@ -1,0 +1,95 @@
+body {
+  background-color: #f2f2f2 !important;
+  min-height: 100vh;
+}
+
+/* banner */
+.banner-box {
+  padding-top: 9.5px;
+  background-color: white;
+  min-height: 100px;
+}
+.banner-logo {
+  background-image: url(../images/logo-bold.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  min-height: 60px;
+  max-height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .banner-logo {
+    background-size: auto 100%;
+    background-position: 20px center;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .banner-logo {
+    background-size: auto 100%;
+    background-position: center center;
+  }
+}
+.banner-menu-box {
+  background-color: #1a2225;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 700;
+  font-size: 8px;
+}
+@media screen and (max-width: 1385px) and (min-width: 1200px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 7px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+.navbar-toogler {
+  outline: none !important;
+}
+.navbar-dark .navbar-toggler:hover {
+  color: #e0e0e0 !important;
+  background-color: #292929;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e0e0e0 !important;
+}
+.profile-text {
+  font-weight: 500;
+  font-size: 11px;
+}
+#profile::after {
+  position: absolute;
+  margin-top: 11px;
+}
+.banner-icon:hover {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+/* banner end */
+
+.text-font {
+  font-size: 12px;
+}
+
+.bg-warning-soft {
+  background-color: #fff1e6 !important;
+}
+
+.info-top {
+  margin-top: 10px;
+}
+
+.btn-text:focus,
+.btn-text:active {
+  color: #ffc107 !important;
+}
+
+.w-10 {
+  width: 10%;
+}
