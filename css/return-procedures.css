@@ -91,5 +91,22 @@ body {
 }
 
 .w-10 {
-  width: 10%;
+  width: 105px;
+}
+.title-down {
+  font-size: 10px;
+}
+.input-label-text {
+  font-size: 10px;
+}
+.filter-select {
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .page-active-button {
+    font-size: 10px !important;
+  }
+  .btn-text {
+    padding: 5px !important;
+  }
 }
