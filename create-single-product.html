@@ -148,13 +148,11 @@
               </div>
               <div class="row m-0 w-100">
                 <p class="text-warning font-weight-bold text-left mt-3">Ürün Açıklaması</p>
-                <div class="col-12 mt-5 text-center">
                   <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
               </div>
 
             </div>
-            <div class="row m-0 px-5 justify-content-end">
+            <div class="row m-0 px-5 justify-content-center">
               <input type="button" name="next" class="
                       next
                       btn btn-warning
@@ -172,16 +170,22 @@
             <div class="row m-0 w-100 px-5">
               <h3 class="text-warning font-weight-bolder">Satış Bilgilerini Giriniz</h3>
             </div>
-            <div class="row m-0 w-100">
-              <div class="container bg-light">
-                <div class="row m-0 w-100">
-                  <p class="text-muted">Boyut</p>
-                  <select type="text" class="p-2 w-50 border" placeholder="Boyut">
-                    <option>Boyut Seçiniz</option>
-                    <option>Tek Boyut</option>
-                  </select>
-                  <button class="btn btn-secondary text-light rounded">SİL</button>
-                </div>
+            <div class="conatiner bg-light rounded p-2 ml-5 mr-5 mt-3 mb-3 justify-content-start">
+              <div class="row m-0 w-100">
+                  <div class="row m-0 w-100">
+                    <div class="col text-right">
+                      <p class="text-muted">Boyut</p>
+                    </div>
+                    <div class="col text-left">
+                      <select type="text" class="p-2 w-100 border" placeholder="Boyut">
+                        <option>Boyut Seçiniz</option>
+                        <option>Tek Boyut</option>
+                      </select>
+                    </div>
+                    <div class="col text-left">
+                      <button class="btn btn-secondary text-light rounded">SİL</button>
+                    </div>
+                  </div>
               </div>
             </div>
             <div class="row m-0 px-5 justify-content-between">
@@ -213,39 +217,34 @@
                   Satış Bilgilerini Giriniz
                 </h3>
               </div>
-              <div class="container bg-light">
-                <div class="row m-0 w-100">
-                  <p class="text-muted">Boyut</p>
-                  <select type="text" class="p-2 w-50 border" placeholder="Boyut">
+              <div class="container bg-light rounded mt-3 mb-3">
+                <div class="row m-0 w-100 mt-3">
+                  <p class="text-muted ml-3 mt-3">Boyut</p>
+                  <select type="text" class="p-2 w-50 border ml-3" placeholder="Boyut">
                     <option>Boyut Seçiniz</option>
                     <option>Tek Boyut</option>
                   </select>
-                  <button class="btn btn-secondary text-light rounded">SİL</button>
+                  <button class="btn btn-secondary text-light rounded ml-3">SİL</button>
                 </div>
-                <div class="row m-0 w-100">
+                <div class="row m-0 w-100 mt-2">
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">BARKOD*</p>
-                    <br>
-                    <input type="text">
+                    <p class="text-warning text-left a-font nowrap">BARKOD*</p>
+                    <input type="text" class="p-2">
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">SATICI STOK KODU</p>
-                    <br>
-                    <input type="text">
+                    <p class="text-warning text-left a-font nowrap">SATICI STOK KODU</p>
+                    <input type="text" class="p-2">
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">PİYASA SATIŞ FİYATI*</p>
-                    <br>
-                    <input type="text">
+                    <p class="text-warning text-left a-font nowrap">PİYASA SATIŞ FİYATI*</p>
+                    <input type="text" class="p-2">
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">YPD SATIŞ FİYATI*</p>
-                    <br>
-                    <input type="text">
+                    <p class="text-warning text-left a-font nowrap">YPD SATIŞ FİYATI*</p>
+                    <input type="text" class="p-2">
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">KDV*</p>
-                    <br>
+                    <p class="text-warning text-left a-font nowrap">KDV*</p>
                     <select type="text" class="p-2 w-100 border" placeholder="%0">
                       <option>%0</option>
                       <option>%1</option>
@@ -254,9 +253,8 @@
                     </select>
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
-                    <p class="text-warning">STOK ADETİ*</p>
-                    <br>
-                    <input type="text">
+                    <p class="text-warning text-left a-font nowrap">STOK ADETİ*</p>
+                    <input type="text" class="p-2">
                   </div>
                 </div>
                 <div class="row m-0 w-100">
@@ -302,64 +300,71 @@
                   Ürün Özelliklerini Giriniz
                 </h3>
               </div>
-              <div class="container bg-light">
-                <div class="row m-0 w-100">
-                  <p class="text-muted">TİPİ</p>
-                  <br>
+              <div class="container bg-light mt-2 mb-2">
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">TİPİ</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="TİPİ">
                     <option>TİPİ</option>
                     <option>X Tipi</option>
                     <option>Y Tipi</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <p class="text-muted">TÜRÜ</p>
-                  <br>
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="TÜRÜ">
                     <option>TÜRÜ</option>
                     <option>X TÜRÜ</option>
                     <option>Y TÜRÜ</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted">TÜRÜ</p>
-                  <br>
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">TÜRÜ</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="EBAT / BOYUT">
                     <option>EBAT / BOYUT</option>
                     <option>18 Inc</option>
                     <option>20 Inc</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted">JANT MARKASI</p>
-                  <br>
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">JANT MARKASI</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="JANT MARKASI">
                     <option>JANT MARKASI</option>
                     <option>X MARKASI</option>
                     <option>Y MARKASI</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted">JANT MARKASI</p>
-                  <br>
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">JANT MARKASI</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="LASTİK MARKASI">
                     <option>LASTİK MARKASI</option>
                     <option>X MARKASI</option>
                     <option>Y MARKASI</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted">JANT MARKASI</p>
-                  <br>
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">JANT MARKASI</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="BİJON ARALIĞI">
                     <option>BİJON ARALIĞI</option>
                     <option>5 Cm</option>
                     <option>7 Cm</option>
                   </select>
                 </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted">JANT MARKASI</p>
-                  <br>
+                <div class="row m-0 w-100 mt-3 mb-3">
+                  <p class="text-muted">JANT MARKASI</p>                  
+                </div>
+                <div class="row m-0 w-100 mt-3 mb-3">
                   <select type="text" class="p-2 w-50 border" placeholder="ÇIKMA PARÇA">
                     <option>ÇIKMA PARÇA</option>
                     <option>Evet</option>
@@ -396,28 +401,30 @@
                 Ürün Görsellerini Ekleyiniz
               </h2>
             </div>
-            <div class="container bg-warning-soft">
-              <div class="col-lg-6 col-md-6 col-sm-12 bg-light">
-                <div class="row m-0 w-100 mt-2">
-                  <i class="fas fa-plus-circle"></i>
+            <div class="container bg-warning-soft rounded mb-3">
+              <div class="row m-0 w-100">
+                <div class="col-lg-6 col-md-6 col-sm-12 bg-light rounded mt-4 mb-4">
+                  <div class="row m-0 w-100 mt-5 justify-content-center">                  
+                    <i class="fas fa-plus-circle cursor-pointer"></i>
+                  </div>
+                  <div class="row m-0 w-100 mt-2 justify-content-center">
+                    <p class="text-muted font-weight-bold">Görsel Seç / Sürükle</p>
+                  </div>
+                  <div class="row m-0 w-100 mt-2 justify-content-center">
+                    <p class="text-muted">(JPG, JPEG, PNG, Minimum 1200x1800)</p>
+                  </div>
                 </div>
-                <div class="row m-0 w-100 mt-2">
-                  <p class="text-muted font-weight-bold">Görsel Seç / Sürükle</p>
-                </div>
-                <div class="row m-0 w-100 mt-2">
-                  <p class="text-muted">(JPG, JPEG, PNG, Minimum 1200x1800)</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="row m-0 w-100">
-                  <p class="text-muted"><i class="far fa-image"></i>Yüklediğiniz görsel JPG veya PNG formatında olmalı
-                  </p>
-                </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted"><i class="fas fa-camera"></i>Görsel 1200x1800, en fazla 5MB boyutunda olmalı</p>
-                </div>
-                <div class="row m-0 w-100">
-                  <p class="text-muted"><i class="far fa-file-alt"></i>Görsel kurallarını görüntülemek için tıklayın</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-5 mb-4">
+                  <div class="row m-0 w-100">
+                    <p class="text-muted ml-2"><i class="far fa-image ml-3"></i>&nbsp;&nbsp;Yüklediğiniz görsel JPG veya PNG formatında olmalı
+                    </p>
+                  </div>
+                  <div class="row m-0 w-100">
+                    <p class="text-muted ml-2"><i class="fas fa-camera ml-3"></i>&nbsp;&nbsp;Görsel 1200x1800, en fazla 5MB boyutunda olmalı</p>
+                  </div>
+                  <div class="row m-0 w-100">
+                    <p class="text-muted ml-2"><i class="far fa-file-alt ml-3"></i>&nbsp;&nbsp;Görsel kurallarını görüntülemek için tıklayın</p>
+                  </div>
                 </div>
               </div>
             </div>

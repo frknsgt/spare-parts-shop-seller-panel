@@ -331,3 +331,11 @@ b {
 .bg-warning-soft {
   background-color: #fff1e6 !important;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
