@@ -615,7 +615,18 @@ a:hover {
 .inform-title {
   max-width: 80%;
 }
+.inputs {
+  max-width: 350px;
+}
 
 .bg-warning-soft {
   background-color: #fff1e6 !important;
+}
+
+.a-font {
+  font-size: 12px;
+}
+
+.a-font-sm {
+  font-size: 11px;
 }
