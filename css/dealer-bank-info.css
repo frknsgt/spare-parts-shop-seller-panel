@@ -615,3 +615,6 @@ a:hover {
 .inform-title {
   max-width: 80%;
 }
+.inputs {
+  max-width: 350px;
+}

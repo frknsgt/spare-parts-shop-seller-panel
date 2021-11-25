@@ -619,3 +619,9 @@ a:hover {
 .bg-warning-soft {
   background-color: #fff1e6 !important;
 }
+.inputs {
+  max-width: 350px;
+}
+.content-text{
+  word-break: break-all;
+}
