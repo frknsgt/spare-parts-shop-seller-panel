@@ -1019,6 +1019,7 @@ button:hover {
     float: none;
     overflow: unset;
     height: auto;
+    left: 0;
   }
   .category-text {
     color: white;
